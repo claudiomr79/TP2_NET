@@ -21,17 +21,17 @@ namespace Business.Logic
         {
             return this.UsuarioData.GetAll();
         } 
-        public Usuario GetOne (int Id)
+        public Usuario GetOne (int id)
         {
-            return this.UsuarioData.GetOne(Id);
+            return this.UsuarioData.GetOne(id);
         }
-        public void Delete (int Id)
+        public void Delete (int id)
         {
-            return this.UsuarioData.Delete(Id);
+            this.UsuarioData.Delete(id);
         }
         public void Save (Usuario us)
         {
-            return this.UsuarioData.Save(us);
+            this.UsuarioData.Save(us);
         }
     }
 }
