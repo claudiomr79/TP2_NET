@@ -1,0 +1,13 @@
+C:\Net\Labs\TP2L03\TP2\LabGrilla\bin\Debug\LabGrilla.exe.config
+C:\Net\Labs\TP2L03\TP2\LabGrilla\bin\Debug\LabGrilla.exe
+C:\Net\Labs\TP2L03\TP2\LabGrilla\bin\Debug\LabGrilla.pdb
+C:\Net\Labs\TP2L03\TP2\LabGrilla\bin\Debug\Negocio.dll
+C:\Net\Labs\TP2L03\TP2\LabGrilla\bin\Debug\Negocio.pdb
+C:\Net\Labs\TP2L03\TP2\LabGrilla\obj\Debug\LabGrilla.csprojAssemblyReference.cache
+C:\Net\Labs\TP2L03\TP2\LabGrilla\obj\Debug\LabGrilla.formListaUsuarios.resources
+C:\Net\Labs\TP2L03\TP2\LabGrilla\obj\Debug\LabGrilla.Properties.Resources.resources
+C:\Net\Labs\TP2L03\TP2\LabGrilla\obj\Debug\LabGrilla.csproj.GenerateResource.cache
+C:\Net\Labs\TP2L03\TP2\LabGrilla\obj\Debug\LabGrilla.csproj.CoreCompileInputs.cache
+C:\Net\Labs\TP2L03\TP2\LabGrilla\obj\Debug\LabGrilla.csproj.CopyComplete
+C:\Net\Labs\TP2L03\TP2\LabGrilla\obj\Debug\LabGrilla.exe
+C:\Net\Labs\TP2L03\TP2\LabGrilla\obj\Debug\LabGrilla.pdb

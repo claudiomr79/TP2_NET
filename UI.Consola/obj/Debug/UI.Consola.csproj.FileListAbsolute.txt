@@ -1,0 +1,14 @@
+C:\Net\Labs\TP2L03\TP2\UI.Consola\bin\Debug\UI.Consola.exe.config
+C:\Net\Labs\TP2L03\TP2\UI.Consola\bin\Debug\UI.Consola.exe
+C:\Net\Labs\TP2L03\TP2\UI.Consola\bin\Debug\UI.Consola.pdb
+C:\Net\Labs\TP2L03\TP2\UI.Consola\bin\Debug\Business.Entities.dll
+C:\Net\Labs\TP2L03\TP2\UI.Consola\bin\Debug\Business.Logic.dll
+C:\Net\Labs\TP2L03\TP2\UI.Consola\bin\Debug\Data.Database.dll
+C:\Net\Labs\TP2L03\TP2\UI.Consola\bin\Debug\Business.Entities.pdb
+C:\Net\Labs\TP2L03\TP2\UI.Consola\bin\Debug\Business.Logic.pdb
+C:\Net\Labs\TP2L03\TP2\UI.Consola\bin\Debug\Data.Database.pdb
+C:\Net\Labs\TP2L03\TP2\UI.Consola\obj\Debug\UI.Consola.csprojAssemblyReference.cache
+C:\Net\Labs\TP2L03\TP2\UI.Consola\obj\Debug\UI.Consola.csproj.CoreCompileInputs.cache
+C:\Net\Labs\TP2L03\TP2\UI.Consola\obj\Debug\UI.Consola.csproj.CopyComplete
+C:\Net\Labs\TP2L03\TP2\UI.Consola\obj\Debug\UI.Consola.exe
+C:\Net\Labs\TP2L03\TP2\UI.Consola\obj\Debug\UI.Consola.pdb
