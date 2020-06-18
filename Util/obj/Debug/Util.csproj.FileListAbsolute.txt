@@ -1,0 +1,6 @@
+C:\Net\Labs\TP2L04\TP2\Util\bin\Debug\Util.dll
+C:\Net\Labs\TP2L04\TP2\Util\bin\Debug\Util.pdb
+C:\Net\Labs\TP2L04\TP2\Util\obj\Debug\Util.csprojAssemblyReference.cache
+C:\Net\Labs\TP2L04\TP2\Util\obj\Debug\Util.csproj.CoreCompileInputs.cache
+C:\Net\Labs\TP2L04\TP2\Util\obj\Debug\Util.dll
+C:\Net\Labs\TP2L04\TP2\Util\obj\Debug\Util.pdb
