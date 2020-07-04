@@ -64,24 +64,37 @@ namespace Data.Database
         public List<Usuario> GetAll()
         {
             List<Usuario> usuarios = new List<Usuario>();
-            this.OpenConnection();
-            SqlCommand cmdUsuarios = new SqlCommand("select * from usuarios", SqlConn);
-            SqlDataReader drUsuarios = cmdUsuarios.ExecuteReader();
-            while (drUsuarios.Read())
-            {
-                Usuario usr = new Usuario();
 
-                usr.ID = (int) drUsuarios["id_usuario"];
-                usr.NombreUsuario = (string )drUsuarios["nombre_usuario"];
-                usr.Clave = (string) drUsuarios["clave"];
-                usr.Habilitado = (bool) drUsuarios["habilitado"];
-                usr.Nombre = (string) drUsuarios["nombre"];
-                usr.Apellido = (string) drUsuarios["apellido"];
-                usr.Email = (string) drUsuarios["email"];
-                usuarios.Add(usr);
+            try
+            {
+                this.OpenConnection();
+                SqlCommand cmdUsuarios = new SqlCommand("select * from usuarios", SqlConn);
+                SqlDataReader drUsuarios = cmdUsuarios.ExecuteReader();
+                while (drUsuarios.Read())
+                {
+                    Usuario usr = new Usuario();
+
+                    usr.ID = (int)drUsuarios["id_usuario"];
+                    usr.NombreUsuario = (string)drUsuarios["nombre_usuario"];
+                    usr.Clave = (string)drUsuarios["clave"];
+                    usr.Habilitado = (bool)drUsuarios["habilitado"];
+                    usr.Nombre = (string)drUsuarios["nombre"];
+                    usr.Apellido = (string)drUsuarios["apellido"];
+                    usr.Email = (string)drUsuarios["email"];
+                    usuarios.Add(usr);
+                }
+                drUsuarios.Close();
+                
             }
-            drUsuarios.Close();
-            this.CloseConnection();
+            catch (Exception ex)
+            {
+                Exception ExcepcionManejada = new Exception("Error al recuperar lista de usuarios", Ex);
+                throw ExcepcionManejada;
+            }
+            finally
+            {
+                this.CloseConnection();
+            }
 
             return usuarios;
         }
