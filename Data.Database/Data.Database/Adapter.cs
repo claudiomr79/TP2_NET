@@ -12,18 +12,25 @@ namespace Data.Database
         //Clave por defecto a utlizar para la cadena de conexion
         const string consKeyDefaultCnnString = "ConnStringLocal";
 
-        public SqlConnection sqlConn { get; set; }
+        private SqlConnection _sqlConn;
+
+        public SqlConnection SqlConn
+        {
+            get { return _sqlConn; }
+            set { _sqlConn = value; }
+        }
 
         protected void OpenConnection()
         {
-            sqlConn = new SqlConnection (ConfigurationManager.ConnectionStrings[consKeyDefaultCnnString].ConnectionString);
-            this.sqlConn.Open();
+            string connectionString = ConfigurationManager.ConnectionStrings[consKeyDefaultCnnString].ConnectionString;
+            SqlConn = new SqlConnection (connectionString);
+            SqlConn.Open();
         }
 
         protected void CloseConnection()
         {
-            this.sqlConn.Close();
-            sqlConn = null;
+            SqlConn.Close();
+            SqlConn = null;
         }
 
         protected SqlDataReader ExecuteReader(String commandText)

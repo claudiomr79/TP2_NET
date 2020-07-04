@@ -9,3 +9,14 @@ C:\Net\Labs\TP2L03\TP2\Business.Logic\bin\Debug\Data.Database.pdb
 C:\Net\Labs\TP2L03\TP2\Business.Logic\obj\Debug\Business.Logic.csproj.CopyComplete
 C:\Net\Labs\TP2L03\TP2\Business.Logic\obj\Debug\Business.Logic.dll
 C:\Net\Labs\TP2L03\TP2\Business.Logic\obj\Debug\Business.Logic.pdb
+C:\Users\claud\Documents\GitHub\TP2_NET\Business.Logic\bin\Debug\Business.Logic.dll
+C:\Users\claud\Documents\GitHub\TP2_NET\Business.Logic\bin\Debug\Business.Logic.pdb
+C:\Users\claud\Documents\GitHub\TP2_NET\Business.Logic\bin\Debug\Business.Entities.dll
+C:\Users\claud\Documents\GitHub\TP2_NET\Business.Logic\bin\Debug\Data.Database.dll
+C:\Users\claud\Documents\GitHub\TP2_NET\Business.Logic\bin\Debug\Business.Entities.pdb
+C:\Users\claud\Documents\GitHub\TP2_NET\Business.Logic\bin\Debug\Data.Database.pdb
+C:\Users\claud\Documents\GitHub\TP2_NET\Business.Logic\obj\Debug\Business.Logic.csprojAssemblyReference.cache
+C:\Users\claud\Documents\GitHub\TP2_NET\Business.Logic\obj\Debug\Business.Logic.csproj.CoreCompileInputs.cache
+C:\Users\claud\Documents\GitHub\TP2_NET\Business.Logic\obj\Debug\Business.Logic.csproj.CopyComplete
+C:\Users\claud\Documents\GitHub\TP2_NET\Business.Logic\obj\Debug\Business.Logic.dll
+C:\Users\claud\Documents\GitHub\TP2_NET\Business.Logic\obj\Debug\Business.Logic.pdb

@@ -63,7 +63,27 @@ namespace Data.Database
 
         public List<Usuario> GetAll()
         {
-            return new List<Usuario>(Usuarios);
+            List<Usuario> usuarios = new List<Usuario>();
+            this.OpenConnection();
+            SqlCommand cmdUsuarios = new SqlCommand("select * from usuarios", SqlConn);
+            SqlDataReader drUsuarios = cmdUsuarios.ExecuteReader();
+            while (drUsuarios.Read())
+            {
+                Usuario usr = new Usuario();
+
+                usr.ID = (int) drUsuarios["id_usuario"];
+                usr.NombreUsuario = (string )drUsuarios["nombre_usuario"];
+                usr.Clave = (string) drUsuarios["clave"];
+                usr.Habilitado = (bool) drUsuarios["habilitado"];
+                usr.Nombre = (string) drUsuarios["nombre"];
+                usr.Apellido = (string) drUsuarios["apellido"];
+                usr.Email = (string) drUsuarios["email"];
+                usuarios.Add(usr);
+            }
+            drUsuarios.Close();
+            this.CloseConnection();
+
+            return usuarios;
         }
 
         public Business.Entities.Usuario GetOne(int ID)
