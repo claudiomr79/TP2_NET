@@ -4,3 +4,9 @@ C:\Net\Labs\TP2L03\TP2\Business.Entities\obj\Debug\Business.Entities.csprojAssem
 C:\Net\Labs\TP2L03\TP2\Business.Entities\obj\Debug\Business.Entities.csproj.CoreCompileInputs.cache
 C:\Net\Labs\TP2L03\TP2\Business.Entities\obj\Debug\Business.Entities.dll
 C:\Net\Labs\TP2L03\TP2\Business.Entities\obj\Debug\Business.Entities.pdb
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\Business.Entities\bin\Debug\Business.Entities.dll
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\Business.Entities\bin\Debug\Business.Entities.pdb
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\Business.Entities\obj\Debug\Business.Entities.csprojAssemblyReference.cache
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\Business.Entities\obj\Debug\Business.Entities.csproj.CoreCompileInputs.cache
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\Business.Entities\obj\Debug\Business.Entities.dll
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\Business.Entities\obj\Debug\Business.Entities.pdb

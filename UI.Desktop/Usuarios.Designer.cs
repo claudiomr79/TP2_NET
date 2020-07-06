@@ -183,7 +183,7 @@
             this.tsUsuarios.Location = new System.Drawing.Point(3, 0);
             this.tsUsuarios.Name = "tsUsuarios";
             this.tsUsuarios.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.tsUsuarios.Size = new System.Drawing.Size(265, 91);
+            this.tsUsuarios.Size = new System.Drawing.Size(274, 91);
             this.tsUsuarios.TabIndex = 0;
             // 
             // tsbNuevo
