@@ -14,24 +14,59 @@ namespace Business.Logic
         public UsuarioAdapter UsuarioData { get; set; }
 
         public UsuarioLogic()
-        {
+        {   
             this.UsuarioData = new UsuarioAdapter();
         }
         public List<Usuario> GetAll()
         {
-            return this.UsuarioData.GetAll();
+            try
+            {
+                return this.UsuarioData.GetAll();
+            }
+            catch (Exception Ex)
+            {
+
+                throw new Exception("No se pudo traer la lista de usuarios!", Ex);
+            }
+           
         } 
         public Usuario GetOne (int id)
         {
-            return this.UsuarioData.GetOne(id);
+            try
+            {
+                return this.UsuarioData.GetOne(id);
+            }
+            catch (Exception Ex)
+            {
+
+                throw new Exception ("No se pudo traer el usuario!", Ex);
+            }
         }
         public void Delete (int id)
         {
-            this.UsuarioData.Delete(id);
+            try
+            {
+                this.UsuarioData.Delete(id);
+            }
+            catch (Exception Ex)
+            {
+
+                throw new Exception ("No se pudo eliminar al usuario", Ex);
+            }
+            
         }
         public void Save (Usuario us)
         {
-            this.UsuarioData.Save(us);
+            try
+            {
+                this.UsuarioData.Save(us);
+            }
+            catch (Exception Ex)
+            {
+
+                throw new Exception ("No se pudo guardar el usuario", Ex);
+            }
+            
         }
     }
 }

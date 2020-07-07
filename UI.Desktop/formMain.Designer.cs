@@ -31,13 +31,18 @@
             this.mnsPrincipal = new System.Windows.Forms.MenuStrip();
             this.mnuArchivo = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuSalir = new System.Windows.Forms.ToolStripMenuItem();
+            this.aBMUsuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aBMUsuarioToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.aBMPlanesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aBMMateriasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnsPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
             // mnsPrincipal
             // 
             this.mnsPrincipal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuArchivo});
+            this.mnuArchivo,
+            this.aBMUsuarioToolStripMenuItem});
             this.mnsPrincipal.Location = new System.Drawing.Point(0, 0);
             this.mnsPrincipal.Name = "mnsPrincipal";
             this.mnsPrincipal.Size = new System.Drawing.Size(800, 24);
@@ -58,6 +63,35 @@
             this.mnuSalir.Size = new System.Drawing.Size(180, 22);
             this.mnuSalir.Text = "Salir";
             this.mnuSalir.Click += new System.EventHandler(this.mnuSalir_Click);
+            // 
+            // aBMUsuarioToolStripMenuItem
+            // 
+            this.aBMUsuarioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aBMUsuarioToolStripMenuItem1,
+            this.aBMPlanesToolStripMenuItem,
+            this.aBMMateriasToolStripMenuItem});
+            this.aBMUsuarioToolStripMenuItem.Name = "aBMUsuarioToolStripMenuItem";
+            this.aBMUsuarioToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
+            this.aBMUsuarioToolStripMenuItem.Text = "ABM";
+            // 
+            // aBMUsuarioToolStripMenuItem1
+            // 
+            this.aBMUsuarioToolStripMenuItem1.Name = "aBMUsuarioToolStripMenuItem1";
+            this.aBMUsuarioToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.aBMUsuarioToolStripMenuItem1.Text = "ABM Usuario";
+            this.aBMUsuarioToolStripMenuItem1.Click += new System.EventHandler(this.ABMUsuarioToolStripMenuItem1_Click);
+            // 
+            // aBMPlanesToolStripMenuItem
+            // 
+            this.aBMPlanesToolStripMenuItem.Name = "aBMPlanesToolStripMenuItem";
+            this.aBMPlanesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aBMPlanesToolStripMenuItem.Text = "ABM Planes";
+            // 
+            // aBMMateriasToolStripMenuItem
+            // 
+            this.aBMMateriasToolStripMenuItem.Name = "aBMMateriasToolStripMenuItem";
+            this.aBMMateriasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aBMMateriasToolStripMenuItem.Text = "ABM Materias";
             // 
             // formMain
             // 
@@ -84,5 +118,9 @@
         private System.Windows.Forms.MenuStrip mnsPrincipal;
         private System.Windows.Forms.ToolStripMenuItem mnuArchivo;
         private System.Windows.Forms.ToolStripMenuItem mnuSalir;
+        private System.Windows.Forms.ToolStripMenuItem aBMUsuarioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aBMUsuarioToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem aBMPlanesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aBMMateriasToolStripMenuItem;
     }
 }

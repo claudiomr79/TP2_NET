@@ -37,5 +37,11 @@ namespace UI.Desktop
     
 
         }
+
+        private void ABMUsuarioToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Usuarios AbmUsuarios = new Usuarios();
+            AbmUsuarios.ShowDialog();
+        }
     }
 }
