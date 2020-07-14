@@ -4,3 +4,9 @@ C:\Net\Labs\TP2L03\TP2\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
 C:\Net\Labs\TP2L03\TP2\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
 C:\Net\Labs\TP2L03\TP2\Negocio\obj\Debug\Negocio.dll
 C:\Net\Labs\TP2L03\TP2\Negocio\obj\Debug\Negocio.pdb
+C:\Users\claudio\Documents\GitHub\TP2_NET\Negocio\bin\Debug\Negocio.dll
+C:\Users\claudio\Documents\GitHub\TP2_NET\Negocio\bin\Debug\Negocio.pdb
+C:\Users\claudio\Documents\GitHub\TP2_NET\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\claudio\Documents\GitHub\TP2_NET\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\claudio\Documents\GitHub\TP2_NET\Negocio\obj\Debug\Negocio.dll
+C:\Users\claudio\Documents\GitHub\TP2_NET\Negocio\obj\Debug\Negocio.pdb

@@ -24,3 +24,16 @@ C:\Net\Labs\TP2L04\TP2\LabGrilla\obj\Debug\LabGrilla.csproj.CoreCompileInputs.ca
 C:\Net\Labs\TP2L04\TP2\LabGrilla\obj\Debug\LabGrilla.csproj.CopyComplete
 C:\Net\Labs\TP2L04\TP2\LabGrilla\obj\Debug\LabGrilla.exe
 C:\Net\Labs\TP2L04\TP2\LabGrilla\obj\Debug\LabGrilla.pdb
+C:\Users\claudio\Documents\GitHub\TP2_NET\LabGrilla\bin\Debug\LabGrilla.exe.config
+C:\Users\claudio\Documents\GitHub\TP2_NET\LabGrilla\bin\Debug\LabGrilla.exe
+C:\Users\claudio\Documents\GitHub\TP2_NET\LabGrilla\bin\Debug\LabGrilla.pdb
+C:\Users\claudio\Documents\GitHub\TP2_NET\LabGrilla\bin\Debug\Negocio.dll
+C:\Users\claudio\Documents\GitHub\TP2_NET\LabGrilla\bin\Debug\Negocio.pdb
+C:\Users\claudio\Documents\GitHub\TP2_NET\LabGrilla\obj\Debug\LabGrilla.csprojAssemblyReference.cache
+C:\Users\claudio\Documents\GitHub\TP2_NET\LabGrilla\obj\Debug\LabGrilla.formListaUsuarios.resources
+C:\Users\claudio\Documents\GitHub\TP2_NET\LabGrilla\obj\Debug\LabGrilla.Properties.Resources.resources
+C:\Users\claudio\Documents\GitHub\TP2_NET\LabGrilla\obj\Debug\LabGrilla.csproj.GenerateResource.cache
+C:\Users\claudio\Documents\GitHub\TP2_NET\LabGrilla\obj\Debug\LabGrilla.csproj.CoreCompileInputs.cache
+C:\Users\claudio\Documents\GitHub\TP2_NET\LabGrilla\obj\Debug\LabGrilla.csproj.CopyComplete
+C:\Users\claudio\Documents\GitHub\TP2_NET\LabGrilla\obj\Debug\LabGrilla.exe
+C:\Users\claudio\Documents\GitHub\TP2_NET\LabGrilla\obj\Debug\LabGrilla.pdb

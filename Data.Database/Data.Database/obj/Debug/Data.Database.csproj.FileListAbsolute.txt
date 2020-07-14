@@ -25,3 +25,12 @@ C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\Data.Database\Data.Database\ob
 C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\Data.Database\Data.Database\obj\Debug\Data.Database.csproj.CopyComplete
 C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\Data.Database\Data.Database\obj\Debug\Data.Database.dll
 C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\Data.Database\Data.Database\obj\Debug\Data.Database.pdb
+C:\Users\claudio\Documents\GitHub\TP2_NET\Data.Database\Data.Database\bin\Debug\Data.Database.dll
+C:\Users\claudio\Documents\GitHub\TP2_NET\Data.Database\Data.Database\bin\Debug\Data.Database.pdb
+C:\Users\claudio\Documents\GitHub\TP2_NET\Data.Database\Data.Database\bin\Debug\Business.Entities.dll
+C:\Users\claudio\Documents\GitHub\TP2_NET\Data.Database\Data.Database\bin\Debug\Business.Entities.pdb
+C:\Users\claudio\Documents\GitHub\TP2_NET\Data.Database\Data.Database\obj\Debug\Data.Database.csprojAssemblyReference.cache
+C:\Users\claudio\Documents\GitHub\TP2_NET\Data.Database\Data.Database\obj\Debug\Data.Database.csproj.CoreCompileInputs.cache
+C:\Users\claudio\Documents\GitHub\TP2_NET\Data.Database\Data.Database\obj\Debug\Data.Database.csproj.CopyComplete
+C:\Users\claudio\Documents\GitHub\TP2_NET\Data.Database\Data.Database\obj\Debug\Data.Database.dll
+C:\Users\claudio\Documents\GitHub\TP2_NET\Data.Database\Data.Database\obj\Debug\Data.Database.pdb
