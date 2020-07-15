@@ -43,5 +43,11 @@ namespace UI.Desktop
             Usuarios AbmUsuarios = new Usuarios();
             AbmUsuarios.ShowDialog();
         }
+
+        private void aBMPlanesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Planes AbmPlanes = new Planes();
+            AbmPlanes.ShowDialog();
+        }
     }
 }

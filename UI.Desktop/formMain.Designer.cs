@@ -60,7 +60,7 @@
             // mnuSalir
             // 
             this.mnuSalir.Name = "mnuSalir";
-            this.mnuSalir.Size = new System.Drawing.Size(180, 22);
+            this.mnuSalir.Size = new System.Drawing.Size(96, 22);
             this.mnuSalir.Text = "Salir";
             this.mnuSalir.Click += new System.EventHandler(this.mnuSalir_Click);
             // 
@@ -86,6 +86,7 @@
             this.aBMPlanesToolStripMenuItem.Name = "aBMPlanesToolStripMenuItem";
             this.aBMPlanesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.aBMPlanesToolStripMenuItem.Text = "ABM Planes";
+            this.aBMPlanesToolStripMenuItem.Click += new System.EventHandler(this.aBMPlanesToolStripMenuItem_Click);
             // 
             // aBMMateriasToolStripMenuItem
             // 
