@@ -31,15 +31,15 @@
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
             this.tlPlanes = new System.Windows.Forms.TableLayoutPanel();
             this.dgvPlanes = new System.Windows.Forms.DataGridView();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IDEspecialidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnActualizar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.tsPlanes = new System.Windows.Forms.ToolStrip();
             this.tsbNuevo = new System.Windows.Forms.ToolStripButton();
             this.tsbEditar = new System.Windows.Forms.ToolStripButton();
             this.tsbEliminar = new System.Windows.Forms.ToolStripButton();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IDEspecialidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.TopToolStripPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
@@ -99,6 +99,26 @@
             this.dgvPlanes.Size = new System.Drawing.Size(1016, 393);
             this.dgvPlanes.TabIndex = 0;
             // 
+            // ID
+            // 
+            this.ID.DataPropertyName = "ID";
+            this.ID.HeaderText = "ID";
+            this.ID.Name = "ID";
+            this.ID.ReadOnly = true;
+            // 
+            // Descripcion
+            // 
+            this.Descripcion.DataPropertyName = "Descripcion";
+            this.Descripcion.HeaderText = "descripción";
+            this.Descripcion.Name = "Descripcion";
+            this.Descripcion.Width = 200;
+            // 
+            // IDEspecialidad
+            // 
+            this.IDEspecialidad.DataPropertyName = "IDEspecialidad";
+            this.IDEspecialidad.HeaderText = "Id especialidad";
+            this.IDEspecialidad.Name = "IDEspecialidad";
+            // 
             // btnActualizar
             // 
             this.btnActualizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -130,7 +150,7 @@
             this.tsbEliminar});
             this.tsPlanes.Location = new System.Drawing.Point(3, 0);
             this.tsPlanes.Name = "tsPlanes";
-            this.tsPlanes.Size = new System.Drawing.Size(253, 93);
+            this.tsPlanes.Size = new System.Drawing.Size(243, 93);
             this.tsPlanes.TabIndex = 0;
             // 
             // tsbNuevo
@@ -168,26 +188,6 @@
             this.tsbEliminar.Text = "toolStripButton2";
             this.tsbEliminar.ToolTipText = "Eliminar";
             this.tsbEliminar.Click += new System.EventHandler(this.tsbEliminar_Click);
-            // 
-            // ID
-            // 
-            this.ID.DataPropertyName = "ID";
-            this.ID.HeaderText = "ID";
-            this.ID.Name = "ID";
-            this.ID.ReadOnly = true;
-            // 
-            // Descripcion
-            // 
-            this.Descripcion.DataPropertyName = "Descripcion";
-            this.Descripcion.HeaderText = "descripción";
-            this.Descripcion.Name = "Descripcion";
-            this.Descripcion.Width = 200;
-            // 
-            // IDEspecialidad
-            // 
-            this.IDEspecialidad.DataPropertyName = "IDEspecialidad";
-            this.IDEspecialidad.HeaderText = "Id especialidad";
-            this.IDEspecialidad.Name = "IDEspecialidad";
             // 
             // Planes
             // 

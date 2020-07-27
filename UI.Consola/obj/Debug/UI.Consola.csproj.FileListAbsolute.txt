@@ -40,3 +40,17 @@ C:\Users\claudio\Documents\GitHub\TP2_NET\UI.Consola\obj\Debug\UI.Consola.csproj
 C:\Users\claudio\Documents\GitHub\TP2_NET\UI.Consola\obj\Debug\UI.Consola.csproj.CopyComplete
 C:\Users\claudio\Documents\GitHub\TP2_NET\UI.Consola\obj\Debug\UI.Consola.exe
 C:\Users\claudio\Documents\GitHub\TP2_NET\UI.Consola\obj\Debug\UI.Consola.pdb
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\UI.Consola\bin\Debug\UI.Consola.exe.config
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\UI.Consola\bin\Debug\UI.Consola.exe
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\UI.Consola\bin\Debug\UI.Consola.pdb
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\UI.Consola\bin\Debug\Business.Entities.dll
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\UI.Consola\bin\Debug\Business.Logic.dll
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\UI.Consola\bin\Debug\Data.Database.dll
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\UI.Consola\bin\Debug\Business.Entities.pdb
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\UI.Consola\bin\Debug\Business.Logic.pdb
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\UI.Consola\bin\Debug\Data.Database.pdb
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\UI.Consola\obj\Debug\UI.Consola.csprojAssemblyReference.cache
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\UI.Consola\obj\Debug\UI.Consola.csproj.CoreCompileInputs.cache
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\UI.Consola\obj\Debug\UI.Consola.csproj.CopyComplete
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\UI.Consola\obj\Debug\UI.Consola.exe
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\UI.Consola\obj\Debug\UI.Consola.pdb

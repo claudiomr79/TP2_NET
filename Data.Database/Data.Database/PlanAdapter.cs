@@ -85,7 +85,7 @@ namespace Data.Database
             }
             catch (Exception Ex)
             {
-                Exception ExcepcionManejada = new Exception("Error al eliminar usuario", Ex);
+                Exception ExcepcionManejada = new Exception("Error al eliminar plan", Ex);
                 throw ExcepcionManejada;
             }
             finally

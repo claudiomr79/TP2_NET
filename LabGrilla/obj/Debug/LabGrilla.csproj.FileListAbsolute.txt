@@ -37,3 +37,16 @@ C:\Users\claudio\Documents\GitHub\TP2_NET\LabGrilla\obj\Debug\LabGrilla.csproj.C
 C:\Users\claudio\Documents\GitHub\TP2_NET\LabGrilla\obj\Debug\LabGrilla.csproj.CopyComplete
 C:\Users\claudio\Documents\GitHub\TP2_NET\LabGrilla\obj\Debug\LabGrilla.exe
 C:\Users\claudio\Documents\GitHub\TP2_NET\LabGrilla\obj\Debug\LabGrilla.pdb
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\LabGrilla\bin\Debug\LabGrilla.exe.config
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\LabGrilla\bin\Debug\LabGrilla.exe
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\LabGrilla\bin\Debug\LabGrilla.pdb
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\LabGrilla\bin\Debug\Negocio.dll
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\LabGrilla\bin\Debug\Negocio.pdb
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\LabGrilla\obj\Debug\LabGrilla.csprojAssemblyReference.cache
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\LabGrilla\obj\Debug\LabGrilla.formListaUsuarios.resources
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\LabGrilla\obj\Debug\LabGrilla.Properties.Resources.resources
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\LabGrilla\obj\Debug\LabGrilla.csproj.GenerateResource.cache
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\LabGrilla\obj\Debug\LabGrilla.csproj.CoreCompileInputs.cache
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\LabGrilla\obj\Debug\LabGrilla.csproj.CopyComplete
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\LabGrilla\obj\Debug\LabGrilla.exe
+C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\LabGrilla\obj\Debug\LabGrilla.pdb
