@@ -93,6 +93,7 @@
             this.aBMMateriasToolStripMenuItem.Name = "aBMMateriasToolStripMenuItem";
             this.aBMMateriasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.aBMMateriasToolStripMenuItem.Text = "ABM Materias";
+            this.aBMMateriasToolStripMenuItem.Click += new System.EventHandler(this.aBMMateriasToolStripMenuItem_Click);
             // 
             // formMain
             // 

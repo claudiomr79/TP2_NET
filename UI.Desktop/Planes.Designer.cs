@@ -150,7 +150,7 @@
             this.tsbEliminar});
             this.tsPlanes.Location = new System.Drawing.Point(3, 0);
             this.tsPlanes.Name = "tsPlanes";
-            this.tsPlanes.Size = new System.Drawing.Size(243, 93);
+            this.tsPlanes.Size = new System.Drawing.Size(280, 93);
             this.tsPlanes.TabIndex = 0;
             // 
             // tsbNuevo

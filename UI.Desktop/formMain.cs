@@ -49,5 +49,11 @@ namespace UI.Desktop
             Planes AbmPlanes = new Planes();
             AbmPlanes.ShowDialog();
         }
+
+        private void aBMMateriasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Materias AbmMaterias = new Materias();
+            AbmMaterias.ShowDialog();
+        }
     }
 }
