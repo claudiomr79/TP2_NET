@@ -63,7 +63,7 @@ namespace Business.Logic
             }
             catch (Exception Ex)
             {
-
+                
                 throw new Exception("No se pudo guardar la materia", Ex);
             }
 

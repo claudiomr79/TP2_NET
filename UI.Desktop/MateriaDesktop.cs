@@ -71,10 +71,16 @@ namespace UI.Desktop
                 this.MateriaActual.Descripcion = this.txtDescripcion.Text;
                 if (int.TryParse(this.txtHsSemanales.Text, out numeroValido))
                     this.MateriaActual.HsSemanales = numeroValido;
+                else
+                    MessageBox.Show("Ingrese horas Semanales (NUMERO VALIDO)");
                 if (int.TryParse(this.txtHsTotales.Text, out numeroValido))
                     this.MateriaActual.HsTotales = numeroValido;
+                else
+                    MessageBox.Show("Ingrese horas Totales (NUMERO VALIDO)");
                 if (int.TryParse(this.txtIdPlan.Text, out numeroValido))
                     this.MateriaActual.IDPlan = numeroValido;
+                else
+                    MessageBox.Show("Ingrese ID Plan (NUMERO VALIDO)");
 
             }
             switch (this.Modo)

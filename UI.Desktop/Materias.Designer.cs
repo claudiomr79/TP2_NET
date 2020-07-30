@@ -31,17 +31,17 @@
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
             this.tlMaterias = new System.Windows.Forms.TableLayoutPanel();
             this.dgvMaterias = new System.Windows.Forms.DataGridView();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DescripcionMateria = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HsSemanales = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HsTotales = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IdPlan = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnActualizar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.tsMaterias = new System.Windows.Forms.ToolStrip();
             this.tsbNuevo = new System.Windows.Forms.ToolStripButton();
             this.tsbEditar = new System.Windows.Forms.ToolStripButton();
             this.tsbEliminar = new System.Windows.Forms.ToolStripButton();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DescripcionMateria = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HsSemanales = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HsTotales = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IdPlan = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.TopToolStripPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
@@ -103,38 +103,6 @@
             this.dgvMaterias.Size = new System.Drawing.Size(1016, 415);
             this.dgvMaterias.TabIndex = 0;
             // 
-            // ID
-            // 
-            this.ID.DataPropertyName = "ID";
-            this.ID.HeaderText = "ID ";
-            this.ID.Name = "ID";
-            this.ID.ReadOnly = true;
-            // 
-            // DescripcionMateria
-            // 
-            this.DescripcionMateria.DataPropertyName = "Descripcion";
-            this.DescripcionMateria.HeaderText = "Descripcion";
-            this.DescripcionMateria.Name = "DescripcionMateria";
-            this.DescripcionMateria.Width = 250;
-            // 
-            // HsSemanales
-            // 
-            this.HsSemanales.DataPropertyName = "HsSemanales";
-            this.HsSemanales.HeaderText = "Hs Semanales";
-            this.HsSemanales.Name = "HsSemanales";
-            // 
-            // HsTotales
-            // 
-            this.HsTotales.DataPropertyName = "HsTotales";
-            this.HsTotales.HeaderText = "Hs Totales";
-            this.HsTotales.Name = "HsTotales";
-            // 
-            // IdPlan
-            // 
-            this.IdPlan.DataPropertyName = "IDPlan";
-            this.IdPlan.HeaderText = "ID Plan";
-            this.IdPlan.Name = "IdPlan";
-            // 
             // btnActualizar
             // 
             this.btnActualizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -165,7 +133,7 @@
             this.tsbEliminar});
             this.tsMaterias.Location = new System.Drawing.Point(3, 0);
             this.tsMaterias.Name = "tsMaterias";
-            this.tsMaterias.Size = new System.Drawing.Size(247, 71);
+            this.tsMaterias.Size = new System.Drawing.Size(216, 71);
             this.tsMaterias.TabIndex = 0;
             // 
             // tsbNuevo
@@ -204,6 +172,39 @@
             this.tsbEliminar.ToolTipText = "Eliminar";
             this.tsbEliminar.Click += new System.EventHandler(this.tsbEliminar_Click);
             // 
+            // ID
+            // 
+            this.ID.DataPropertyName = "ID";
+            this.ID.HeaderText = "ID ";
+            this.ID.Name = "ID";
+            this.ID.ReadOnly = true;
+            // 
+            // DescripcionMateria
+            // 
+            this.DescripcionMateria.DataPropertyName = "Descripcion";
+            this.DescripcionMateria.HeaderText = "Descripcion";
+            this.DescripcionMateria.Name = "DescripcionMateria";
+            this.DescripcionMateria.Width = 250;
+            // 
+            // HsSemanales
+            // 
+            this.HsSemanales.DataPropertyName = "HsSemanales";
+            this.HsSemanales.HeaderText = "Hs Semanales";
+            this.HsSemanales.Name = "HsSemanales";
+            // 
+            // HsTotales
+            // 
+            this.HsTotales.DataPropertyName = "HsTotales";
+            this.HsTotales.HeaderText = "Hs Totales";
+            this.HsTotales.Name = "HsTotales";
+            // 
+            // IdPlan
+            // 
+            this.IdPlan.DataPropertyName = "IDPlan";
+            this.IdPlan.HeaderText = "ID Plan";
+            this.IdPlan.Name = "IdPlan";
+            this.IdPlan.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
             // Materias
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -234,13 +235,13 @@
         private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.ToolStrip tsMaterias;
+        private System.Windows.Forms.ToolStripButton tsbNuevo;
+        private System.Windows.Forms.ToolStripButton tsbEditar;
+        private System.Windows.Forms.ToolStripButton tsbEliminar;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn DescripcionMateria;
         private System.Windows.Forms.DataGridViewTextBoxColumn HsSemanales;
         private System.Windows.Forms.DataGridViewTextBoxColumn HsTotales;
         private System.Windows.Forms.DataGridViewTextBoxColumn IdPlan;
-        private System.Windows.Forms.ToolStripButton tsbNuevo;
-        private System.Windows.Forms.ToolStripButton tsbEditar;
-        private System.Windows.Forms.ToolStripButton tsbEliminar;
     }
 }
