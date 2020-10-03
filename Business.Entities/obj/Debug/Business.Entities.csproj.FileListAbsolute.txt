@@ -10,3 +10,9 @@ C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\Business.Entities\obj\Debug\Bu
 C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\Business.Entities\obj\Debug\Business.Entities.csproj.CoreCompileInputs.cache
 C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\Business.Entities\obj\Debug\Business.Entities.dll
 C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\Business.Entities\obj\Debug\Business.Entities.pdb
+C:\Proyectos\Unidades\TP2\Business.Entities\bin\Debug\Business.Entities.dll
+C:\Proyectos\Unidades\TP2\Business.Entities\bin\Debug\Business.Entities.pdb
+C:\Proyectos\Unidades\TP2\Business.Entities\obj\Debug\Business.Entities.csprojAssemblyReference.cache
+C:\Proyectos\Unidades\TP2\Business.Entities\obj\Debug\Business.Entities.csproj.CoreCompileInputs.cache
+C:\Proyectos\Unidades\TP2\Business.Entities\obj\Debug\Business.Entities.dll
+C:\Proyectos\Unidades\TP2\Business.Entities\obj\Debug\Business.Entities.pdb

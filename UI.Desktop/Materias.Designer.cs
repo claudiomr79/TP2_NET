@@ -178,6 +178,7 @@
             this.ID.HeaderText = "ID ";
             this.ID.Name = "ID";
             this.ID.ReadOnly = true;
+            this.ID.Width = 50;
             // 
             // DescripcionMateria
             // 
@@ -204,6 +205,7 @@
             this.IdPlan.HeaderText = "ID Plan";
             this.IdPlan.Name = "IdPlan";
             this.IdPlan.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.IdPlan.Width = 50;
             // 
             // Materias
             // 

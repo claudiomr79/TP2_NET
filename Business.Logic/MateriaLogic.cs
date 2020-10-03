@@ -25,7 +25,7 @@ namespace Business.Logic
             }
             catch (Exception Ex)
             {
-
+                
                 throw new Exception("No se pudo traer la lista de materias!", Ex);
             }
 

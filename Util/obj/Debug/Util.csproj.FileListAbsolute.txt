@@ -10,3 +10,9 @@ C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\Util\obj\Debug\Util.csprojAsse
 C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\Util\obj\Debug\Util.csproj.CoreCompileInputs.cache
 C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\Util\obj\Debug\Util.dll
 C:\Users\claud\OneDrive\Documentos\GitHub\TP2_NET\Util\obj\Debug\Util.pdb
+C:\Proyectos\Unidades\TP2\Util\bin\Debug\Util.dll
+C:\Proyectos\Unidades\TP2\Util\bin\Debug\Util.pdb
+C:\Proyectos\Unidades\TP2\Util\obj\Debug\Util.csprojAssemblyReference.cache
+C:\Proyectos\Unidades\TP2\Util\obj\Debug\Util.csproj.CoreCompileInputs.cache
+C:\Proyectos\Unidades\TP2\Util\obj\Debug\Util.dll
+C:\Proyectos\Unidades\TP2\Util\obj\Debug\Util.pdb

@@ -27,7 +27,16 @@ namespace UI.Desktop
 
         private void Materias_Load(object sender, EventArgs e)
         {
-            this.Listar();
+            try
+            {
+                this.Listar();
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message.ToString());
+            } 
+            
         }
 
         private void btnActualizar_Click(object sender, EventArgs e)

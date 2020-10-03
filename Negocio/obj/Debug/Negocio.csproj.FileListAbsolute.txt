@@ -22,3 +22,9 @@ C:\Users\claud\Desktop\TP2_NET\Negocio\obj\Debug\Negocio.csprojAssemblyReference
 C:\Users\claud\Desktop\TP2_NET\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
 C:\Users\claud\Desktop\TP2_NET\Negocio\obj\Debug\Negocio.dll
 C:\Users\claud\Desktop\TP2_NET\Negocio\obj\Debug\Negocio.pdb
+C:\Proyectos\Unidades\TP2\Negocio\bin\Debug\Negocio.dll
+C:\Proyectos\Unidades\TP2\Negocio\bin\Debug\Negocio.pdb
+C:\Proyectos\Unidades\TP2\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Proyectos\Unidades\TP2\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Proyectos\Unidades\TP2\Negocio\obj\Debug\Negocio.dll
+C:\Proyectos\Unidades\TP2\Negocio\obj\Debug\Negocio.pdb
