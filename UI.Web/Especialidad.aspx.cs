@@ -39,20 +39,17 @@ namespace UI.Web
         private void LoadForm(int id)
         {
             this.Entity = this.Logic.GetOne(id);
-            this.txtDescripcion.Text = Entity.d;
-            
+            this.txtDescripcion.Text = this.Entity.Descripcion;
+            this.txtID.Text = this.Entity.ID.ToString();
         }
 
-        private void LoadEntity(Usuario usuario)
+        private void LoadEntity(Business.Entities.Especialidad especialidad)
         {
-            usuario.Nombre = this.nombreTextBox.Text;
-            usuario.Apellido = this.apellidoTextBox.Text;
-            usuario.Email = this.emailTextBox.Text;
-            usuario.NombreUsuario = this.nombreUsuarioTextBox.Text;
-            usuario.Clave = this.claveTextBox.Text;
-            usuario.Habilitado = this.habilitadoCheckBox.Checked;
+           
+            especialidad.Descripcion = this.txtDescripcion.Text;
+           
         }
-        private void SaveEntity(Especialidad especialidad)
+        private void SaveEntity(Business.Entities.Especialidad especialidad)
         {
             this.Logic.Save(especialidad);
         }
@@ -62,6 +59,11 @@ namespace UI.Web
             this.txtID.Visible = enable;
             this.txtDescripcion.Enabled = enable;
             
+        }
+        private void ClearForm()
+        {
+            this.txtDescripcion.Text = string.Empty;
+            this.txtID.Text = string.Empty;
         }
 
         private void DeleteEntity(int id)
@@ -83,7 +85,7 @@ namespace UI.Web
             set { this.ViewState["FormMode"] = value; }
         }
 
-        private Especialidad Entity
+        private Business.Entities.Especialidad Entity
         {
             get; set;
         }
@@ -149,6 +151,41 @@ namespace UI.Web
             this.FormMode = FormModes.Alta;
             this.ClearForm();
             this.EnableForm(true);
+        }
+
+        protected void aceptarLinkButton_Click(object sender, EventArgs e)
+        {
+            switch (this.FormMode)
+            {
+                case FormModes.Baja:
+                    this.DeleteEntity(this.SelectedID);
+                    this.LoadGrid();
+                    break;
+                case FormModes.Modificacion:
+                    this.Entity = new Business.Entities.Especialidad();
+                    this.Entity.ID = this.SelectedID;
+                    this.Entity.State = BusinessEntity.States.Modified;
+                    this.LoadEntity(this.Entity);
+                    this.SaveEntity(this.Entity);
+                    this.LoadGrid();
+                    break;
+                case FormModes.Alta:
+                    this.Entity = new Business.Entities.Especialidad();
+                    this.LoadEntity(this.Entity);
+                    this.SaveEntity(this.Entity);
+                    this.LoadGrid();
+                    break;
+                default:
+                    break;
+            }
+
+            this.formPanel.Visible = false;
+        }
+
+        protected void cancelarLinkButton_Click(object sender, EventArgs e)
+        {
+            this.LoadGrid();
+            this.formPanel.Visible = false;
         }
     }
 }

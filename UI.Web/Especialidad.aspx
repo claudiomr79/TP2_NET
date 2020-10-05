@@ -1,5 +1,15 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Especialidad.aspx.cs" Inherits="UI.Web.Especialidad" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style>
+        table, th, td {
+         border: 1px solid black;
+         border-collapse: collapse;
+         }
+        table.center {
+          margin-left:auto; 
+          margin-right:auto;
+        }
+     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="bodyContentPlaceHolder" runat="server">
     <h1>Especialidad</h1>
@@ -37,7 +47,7 @@
             <tr>
                 <td><asp:Label ID="lblDescripcion" runat="server" Text="Descripción Especialidad:"></asp:Label></td>
                 <td><asp:TextBox ID="txtDescripcion" runat="server" Width="150px"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="rfvDescripcion" runat="server" ErrorMessage="La descripción no puede estar vacia" ControlToValidate="descripcionTextBox">*</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="rfvDescripcion" runat="server" ErrorMessage="La descripción no puede estar vacia" ControlToValidate="txtDescripcion">*</asp:RequiredFieldValidator>
                 </td>
             </tr>           
         </table>

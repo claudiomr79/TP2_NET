@@ -82,3 +82,17 @@ C:\Users\claud\Desktop\TP2versiones\TP2_NET\UI.Consola\obj\Debug\UI.Consola.cspr
 C:\Users\claud\Desktop\TP2versiones\TP2_NET\UI.Consola\obj\Debug\UI.Consola.csproj.CopyComplete
 C:\Users\claud\Desktop\TP2versiones\TP2_NET\UI.Consola\obj\Debug\UI.Consola.exe
 C:\Users\claud\Desktop\TP2versiones\TP2_NET\UI.Consola\obj\Debug\UI.Consola.pdb
+C:\TP2_NET\UI.Consola\bin\Debug\UI.Consola.exe.config
+C:\TP2_NET\UI.Consola\bin\Debug\UI.Consola.exe
+C:\TP2_NET\UI.Consola\bin\Debug\UI.Consola.pdb
+C:\TP2_NET\UI.Consola\bin\Debug\Business.Entities.dll
+C:\TP2_NET\UI.Consola\bin\Debug\Business.Logic.dll
+C:\TP2_NET\UI.Consola\bin\Debug\Data.Database.dll
+C:\TP2_NET\UI.Consola\bin\Debug\Business.Entities.pdb
+C:\TP2_NET\UI.Consola\bin\Debug\Business.Logic.pdb
+C:\TP2_NET\UI.Consola\bin\Debug\Data.Database.pdb
+C:\TP2_NET\UI.Consola\obj\Debug\UI.Consola.csprojAssemblyReference.cache
+C:\TP2_NET\UI.Consola\obj\Debug\UI.Consola.csproj.CoreCompileInputs.cache
+C:\TP2_NET\UI.Consola\obj\Debug\UI.Consola.csproj.CopyComplete
+C:\TP2_NET\UI.Consola\obj\Debug\UI.Consola.exe
+C:\TP2_NET\UI.Consola\obj\Debug\UI.Consola.pdb

@@ -75,3 +75,14 @@ C:\Users\claud\Desktop\TP2versiones\TP2_NET\Business.Logic\obj\Debug\Business.Lo
 C:\Users\claud\Desktop\TP2versiones\TP2_NET\Business.Logic\obj\Debug\Business.Logic.csproj.CopyComplete
 C:\Users\claud\Desktop\TP2versiones\TP2_NET\Business.Logic\obj\Debug\Business.Logic.dll
 C:\Users\claud\Desktop\TP2versiones\TP2_NET\Business.Logic\obj\Debug\Business.Logic.pdb
+C:\TP2_NET\Business.Logic\bin\Debug\Business.Logic.dll
+C:\TP2_NET\Business.Logic\bin\Debug\Business.Logic.pdb
+C:\TP2_NET\Business.Logic\bin\Debug\Business.Entities.dll
+C:\TP2_NET\Business.Logic\bin\Debug\Data.Database.dll
+C:\TP2_NET\Business.Logic\bin\Debug\Business.Entities.pdb
+C:\TP2_NET\Business.Logic\bin\Debug\Data.Database.pdb
+C:\TP2_NET\Business.Logic\obj\Debug\Business.Logic.csprojAssemblyReference.cache
+C:\TP2_NET\Business.Logic\obj\Debug\Business.Logic.csproj.CoreCompileInputs.cache
+C:\TP2_NET\Business.Logic\obj\Debug\Business.Logic.csproj.CopyComplete
+C:\TP2_NET\Business.Logic\obj\Debug\Business.Logic.dll
+C:\TP2_NET\Business.Logic\obj\Debug\Business.Logic.pdb
