@@ -42,7 +42,6 @@
     </asp:Panel>
     <br />
     <asp:Panel ID="formPanel" Visible="false" runat="server">
-
         <table class="center">
             <tr>
                 <td><asp:Label ID="nombreLabel" runat="server" Text="Nombre:"></asp:Label></td>

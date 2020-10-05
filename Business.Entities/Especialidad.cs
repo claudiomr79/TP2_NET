@@ -9,6 +9,10 @@ namespace Business.Entities
     {
         private string _descripcion;
 
-        public string Descripcion { get => _descripcion; set => _descripcion = value; }
+        public string Descripcion
+        {
+            get { return _descripcion; }
+            set { _descripcion = value; }
+        }
     }
 }

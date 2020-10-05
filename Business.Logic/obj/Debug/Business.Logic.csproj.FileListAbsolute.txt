@@ -64,3 +64,14 @@ C:\Proyectos\Unidades\TP2\Business.Logic\obj\Debug\Business.Logic.csproj.CoreCom
 C:\Proyectos\Unidades\TP2\Business.Logic\obj\Debug\Business.Logic.csproj.CopyComplete
 C:\Proyectos\Unidades\TP2\Business.Logic\obj\Debug\Business.Logic.dll
 C:\Proyectos\Unidades\TP2\Business.Logic\obj\Debug\Business.Logic.pdb
+C:\Users\claud\Desktop\TP2versiones\TP2_NET\Business.Logic\bin\Debug\Business.Logic.dll
+C:\Users\claud\Desktop\TP2versiones\TP2_NET\Business.Logic\bin\Debug\Business.Logic.pdb
+C:\Users\claud\Desktop\TP2versiones\TP2_NET\Business.Logic\bin\Debug\Business.Entities.dll
+C:\Users\claud\Desktop\TP2versiones\TP2_NET\Business.Logic\bin\Debug\Data.Database.dll
+C:\Users\claud\Desktop\TP2versiones\TP2_NET\Business.Logic\bin\Debug\Business.Entities.pdb
+C:\Users\claud\Desktop\TP2versiones\TP2_NET\Business.Logic\bin\Debug\Data.Database.pdb
+C:\Users\claud\Desktop\TP2versiones\TP2_NET\Business.Logic\obj\Debug\Business.Logic.csprojAssemblyReference.cache
+C:\Users\claud\Desktop\TP2versiones\TP2_NET\Business.Logic\obj\Debug\Business.Logic.csproj.CoreCompileInputs.cache
+C:\Users\claud\Desktop\TP2versiones\TP2_NET\Business.Logic\obj\Debug\Business.Logic.csproj.CopyComplete
+C:\Users\claud\Desktop\TP2versiones\TP2_NET\Business.Logic\obj\Debug\Business.Logic.dll
+C:\Users\claud\Desktop\TP2versiones\TP2_NET\Business.Logic\obj\Debug\Business.Logic.pdb
