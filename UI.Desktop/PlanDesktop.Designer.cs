@@ -36,8 +36,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtIdEspecialidad = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.txtIdEspecialidad = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -123,16 +123,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "ID";
             // 
-            // txtIdEspecialidad
-            // 
-            this.txtIdEspecialidad.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtIdEspecialidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIdEspecialidad.Location = new System.Drawing.Point(131, 85);
-            this.txtIdEspecialidad.Name = "txtIdEspecialidad";
-            this.txtIdEspecialidad.Size = new System.Drawing.Size(406, 22);
-            this.txtIdEspecialidad.TabIndex = 14;
-            this.txtIdEspecialidad.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 2;
@@ -159,6 +149,16 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(540, 165);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
+            // txtIdEspecialidad
+            // 
+            this.txtIdEspecialidad.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtIdEspecialidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIdEspecialidad.Location = new System.Drawing.Point(131, 85);
+            this.txtIdEspecialidad.Name = "txtIdEspecialidad";
+            this.txtIdEspecialidad.Size = new System.Drawing.Size(406, 22);
+            this.txtIdEspecialidad.TabIndex = 14;
+            this.txtIdEspecialidad.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
             // PlanDesktop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -184,7 +184,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtIdEspecialidad;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.TextBox txtIdEspecialidad;
     }
 }

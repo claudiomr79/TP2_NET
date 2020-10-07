@@ -35,6 +35,7 @@
             this.aBMUsuarioToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.aBMPlanesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aBMMateriasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aBMEspecialidadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnsPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,7 +70,8 @@
             this.aBMUsuarioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aBMUsuarioToolStripMenuItem1,
             this.aBMPlanesToolStripMenuItem,
-            this.aBMMateriasToolStripMenuItem});
+            this.aBMMateriasToolStripMenuItem,
+            this.aBMEspecialidadesToolStripMenuItem});
             this.aBMUsuarioToolStripMenuItem.Name = "aBMUsuarioToolStripMenuItem";
             this.aBMUsuarioToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
             this.aBMUsuarioToolStripMenuItem.Text = "ABM";
@@ -94,6 +96,13 @@
             this.aBMMateriasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.aBMMateriasToolStripMenuItem.Text = "ABM Materias";
             this.aBMMateriasToolStripMenuItem.Click += new System.EventHandler(this.aBMMateriasToolStripMenuItem_Click);
+            // 
+            // aBMEspecialidadesToolStripMenuItem
+            // 
+            this.aBMEspecialidadesToolStripMenuItem.Name = "aBMEspecialidadesToolStripMenuItem";
+            this.aBMEspecialidadesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aBMEspecialidadesToolStripMenuItem.Text = "ABM Especialidades";
+            this.aBMEspecialidadesToolStripMenuItem.Click += new System.EventHandler(this.aBMEspecialidadesToolStripMenuItem_Click);
             // 
             // formMain
             // 
@@ -124,5 +133,6 @@
         private System.Windows.Forms.ToolStripMenuItem aBMUsuarioToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem aBMPlanesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aBMMateriasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aBMEspecialidadesToolStripMenuItem;
     }
 }

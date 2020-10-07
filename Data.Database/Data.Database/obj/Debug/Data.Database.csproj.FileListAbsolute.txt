@@ -70,3 +70,12 @@ C:\TP2_NET\Data.Database\Data.Database\obj\Debug\Data.Database.csproj.CoreCompil
 C:\TP2_NET\Data.Database\Data.Database\obj\Debug\Data.Database.csproj.CopyComplete
 C:\TP2_NET\Data.Database\Data.Database\obj\Debug\Data.Database.dll
 C:\TP2_NET\Data.Database\Data.Database\obj\Debug\Data.Database.pdb
+C:\Proyectos\Unidades\TP2_NET\Data.Database\Data.Database\bin\Debug\Data.Database.dll
+C:\Proyectos\Unidades\TP2_NET\Data.Database\Data.Database\bin\Debug\Data.Database.pdb
+C:\Proyectos\Unidades\TP2_NET\Data.Database\Data.Database\bin\Debug\Business.Entities.dll
+C:\Proyectos\Unidades\TP2_NET\Data.Database\Data.Database\bin\Debug\Business.Entities.pdb
+C:\Proyectos\Unidades\TP2_NET\Data.Database\Data.Database\obj\Debug\Data.Database.csprojAssemblyReference.cache
+C:\Proyectos\Unidades\TP2_NET\Data.Database\Data.Database\obj\Debug\Data.Database.csproj.CoreCompileInputs.cache
+C:\Proyectos\Unidades\TP2_NET\Data.Database\Data.Database\obj\Debug\Data.Database.csproj.CopyComplete
+C:\Proyectos\Unidades\TP2_NET\Data.Database\Data.Database\obj\Debug\Data.Database.dll
+C:\Proyectos\Unidades\TP2_NET\Data.Database\Data.Database\obj\Debug\Data.Database.pdb

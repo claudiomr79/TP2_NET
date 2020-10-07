@@ -55,5 +55,11 @@ namespace UI.Desktop
             Materias AbmMaterias = new Materias();
             AbmMaterias.ShowDialog();
         }
+
+        private void aBMEspecialidadesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Especialidades AbmEspecialidades = new Especialidades();
+            AbmEspecialidades.ShowDialog();
+        }
     }
 }
