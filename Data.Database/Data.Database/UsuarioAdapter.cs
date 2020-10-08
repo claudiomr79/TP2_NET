@@ -7,9 +7,41 @@ using System.Data.SqlClient;
 
 namespace Data.Database
 {
-    public class UsuarioAdapter:Adapter
+    public class UsuarioAdapter : Adapter
     {
-        
+        public bool ValidarUsuario(string usuario, string password)
+        {
+            //Usuario usr = new Usuario();
+            string claveBuscada = null;
+            if ((null == usuario) || (0 == usuario.Length))
+                return false;
+            if ((null == password) || (0 == password.Length))
+                return false;
+            try
+            {
+                this.OpenConnection();
+                SqlCommand cmdUsuarios = new SqlCommand("select clave from usuarios where nombre_usuario=@usuario ", SqlConn);
+                cmdUsuarios.Parameters.Add("@usuario", SqlDbType.VarChar, 50);
+                cmdUsuarios.Parameters["@usuario"].Value = usuario;
+                claveBuscada = (string)cmdUsuarios.ExecuteScalar();
+            }
+            catch (Exception Ex)
+            {
+                Exception ExcepcionManejada = new Exception("Error al recuperar lista de usuarios", Ex);
+                throw ExcepcionManejada;
+
+            }
+            finally
+            {
+                this.CloseConnection();
+            }
+            if (null == claveBuscada)
+            {
+                return false;
+            }
+
+            return (password.Equals(claveBuscada));
+        }
 
         public List<Usuario> GetAll()
         {
@@ -34,7 +66,7 @@ namespace Data.Database
                     usuarios.Add(usr);
                 }
                 drUsuarios.Close();
-                
+
             }
             catch (Exception Ex)
             {
@@ -104,16 +136,16 @@ namespace Data.Database
             }
 
         }
-        protected void Update (Usuario usuario)
+        protected void Update(Usuario usuario)
         {
             try
             {
                 this.OpenConnection();
                 SqlCommand cmdSave = new SqlCommand("UPDATE usuarios SET nombre_usuario = @nombre_usuario, clave = @clave, " +
-                    "habilitado = @habilitado, nombre = @nombre , apellido = @apellido, email = @email WHERE id_usuario = @id",SqlConn);
+                    "habilitado = @habilitado, nombre = @nombre , apellido = @apellido, email = @email WHERE id_usuario = @id", SqlConn);
 
                 cmdSave.Parameters.Add("@id", SqlDbType.Int).Value = usuario.ID;
-                cmdSave.Parameters.Add("@nombre_usuario", SqlDbType.VarChar,50).Value = usuario.NombreUsuario;
+                cmdSave.Parameters.Add("@nombre_usuario", SqlDbType.VarChar, 50).Value = usuario.NombreUsuario;
                 cmdSave.Parameters.Add("@clave", SqlDbType.VarChar, 50).Value = usuario.Clave;
                 cmdSave.Parameters.Add("@habilitado", SqlDbType.Bit).Value = usuario.Habilitado;
                 cmdSave.Parameters.Add("@nombre", SqlDbType.VarChar, 50).Value = usuario.Nombre;
@@ -133,14 +165,14 @@ namespace Data.Database
                 this.CloseConnection();
             }
         }
-        protected void Insert (Usuario usuario)
+        protected void Insert(Usuario usuario)
         {
             try
             {
                 this.OpenConnection();
-                SqlCommand cmdSave = new SqlCommand("INSERT INTO usuarios (nombre_usuario, clave, habilitado, nombre , apellido, email) VALUES (@nombre_usuario,@clave,@habilitado,@nombre,@apellido,@email) select @@identity",SqlConn);
+                SqlCommand cmdSave = new SqlCommand("INSERT INTO usuarios (nombre_usuario, clave, habilitado, nombre , apellido, email) VALUES (@nombre_usuario,@clave,@habilitado,@nombre,@apellido,@email) select @@identity", SqlConn);
 
-                
+
                 cmdSave.Parameters.Add("@nombre_usuario", SqlDbType.VarChar, 50).Value = usuario.NombreUsuario;
                 cmdSave.Parameters.Add("@clave", SqlDbType.VarChar, 50).Value = usuario.Clave;
                 cmdSave.Parameters.Add("@habilitado", SqlDbType.Bit).Value = usuario.Habilitado;
@@ -153,7 +185,7 @@ namespace Data.Database
             }
             catch (Exception Ex)
             {
-                Exception ExcepcionManejada = new Exception("Error al crear usuario" , Ex);
+                Exception ExcepcionManejada = new Exception("Error al crear usuario", Ex);
                 throw ExcepcionManejada;
             }
             finally
@@ -175,7 +207,7 @@ namespace Data.Database
             {
                 this.Update(usuario);
             }
-            usuario.State = BusinessEntity.States.Unmodified;            
+            usuario.State = BusinessEntity.States.Unmodified;
         }
     }
 }

@@ -22,3 +22,9 @@ C:\TP2_NET\Util\obj\Debug\Util.csprojAssemblyReference.cache
 C:\TP2_NET\Util\obj\Debug\Util.csproj.CoreCompileInputs.cache
 C:\TP2_NET\Util\obj\Debug\Util.dll
 C:\TP2_NET\Util\obj\Debug\Util.pdb
+C:\Proyectos\Unidades\TP2_NET\Util\bin\Debug\Util.dll
+C:\Proyectos\Unidades\TP2_NET\Util\bin\Debug\Util.pdb
+C:\Proyectos\Unidades\TP2_NET\Util\obj\Debug\Util.csprojAssemblyReference.cache
+C:\Proyectos\Unidades\TP2_NET\Util\obj\Debug\Util.csproj.CoreCompileInputs.cache
+C:\Proyectos\Unidades\TP2_NET\Util\obj\Debug\Util.dll
+C:\Proyectos\Unidades\TP2_NET\Util\obj\Debug\Util.pdb

@@ -6,17 +6,28 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Academia</title>
+    <link href="Content/bootstrap.min.css" rel ="stylesheet" type= "text/css" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="bodyForm" runat="server">
+        <!-- Scripts -->
+        <asp:ScriptManager ID="smPageManager" ScriptMode="Release" runat="server">
+            <Scripts>
+                <asp:ScriptReference Path= "~/Scripts/jquery-3.0.0.min.js" />
+                <asp:ScriptReference Path="~/Scripts/bootstrap.min.js" />
+            </Scripts>
+        </asp:ScriptManager>
+        <!--Imagen y Menu -->
         <asp:Image ID="logo" runat="server" Height="63px" ImageAlign="Left" ImageUrl="~/Imagenes/utn.jpg" Width="49px" />
         <h1>Sistema Académico</h1><br />
         <asp:Menu ID="menu" runat="server" DataSourceID="SiteMapDataSource">
         </asp:Menu>
-        <asp:SiteMapDataSource ID="SiteMapDataSource" runat="server" />
-        <div>
+        <br />
+        <asp:SiteMapDataSource ID="SiteMapDataSource" runat="server" /><br />
+        <!-- Contenido  -->
+        <div class="container">
             <asp:ContentPlaceHolder ID="bodyContentPlaceHolder" runat="server">        
             </asp:ContentPlaceHolder>
         </div>

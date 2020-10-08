@@ -68,5 +68,10 @@ namespace Business.Logic
             }
             
         }
+        public bool ValidarUsuarioLogic(string usuario, string password)
+        {
+            bool usuarioValido= UsuarioData.ValidarUsuario( usuario, password);
+            return usuarioValido;
+        }
     }
 }

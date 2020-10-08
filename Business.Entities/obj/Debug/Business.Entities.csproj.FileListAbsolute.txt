@@ -24,7 +24,6 @@ C:\TP2_NET\Business.Entities\obj\Debug\Business.Entities.dll
 C:\TP2_NET\Business.Entities\obj\Debug\Business.Entities.pdb
 C:\Proyectos\Unidades\TP2_NET\Business.Entities\bin\Debug\Business.Entities.dll
 C:\Proyectos\Unidades\TP2_NET\Business.Entities\bin\Debug\Business.Entities.pdb
-C:\Proyectos\Unidades\TP2_NET\Business.Entities\obj\Debug\Business.Entities.csprojAssemblyReference.cache
 C:\Proyectos\Unidades\TP2_NET\Business.Entities\obj\Debug\Business.Entities.csproj.CoreCompileInputs.cache
 C:\Proyectos\Unidades\TP2_NET\Business.Entities\obj\Debug\Business.Entities.dll
 C:\Proyectos\Unidades\TP2_NET\Business.Entities\obj\Debug\Business.Entities.pdb
