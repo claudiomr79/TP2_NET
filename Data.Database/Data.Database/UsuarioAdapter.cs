@@ -11,7 +11,7 @@ namespace Data.Database
     {
         public bool ValidarUsuario(string usuario, string password)
         {
-            //Usuario usr = new Usuario();
+            
             string claveBuscada = null;
             if ((null == usuario) || (0 == usuario.Length))
                 return false;

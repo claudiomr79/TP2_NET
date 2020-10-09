@@ -8,15 +8,15 @@ namespace Business.Entities
     public class Persona: BusinessEntity
     {
         #region ATRIBUTOS
+        private string _nombre;
         private string _apellido;
         private string _direccion;
         private string _email;
+        private string _telefono;
         private DateTime _fechaNacimiento;
         private int _IDPlan;
-        private int _legajo;
-        private string _nombre;
-        private string _telefono;
-        //  private TiposPersonas tipoPersona; 
+        private int _legajo;            
+        private TiposPersonas _tipoPersona; 
         #endregion
 
         #region PROPIEDADES
@@ -28,10 +28,15 @@ namespace Business.Entities
         public int Legajo { get => _legajo; set => _legajo = value; }
         public string Nombre { get => _nombre; set => _nombre = value; }
         public string Telefono { get => _telefono; set => _telefono = value; }
-
+        public int TipoPersona { get; set; }
         #endregion
 
-
+        enum TiposPersonas
+        {
+            Alumno=1,
+            Docente,
+            Administrativo
+        }
 
     }
 }

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Business.Logic;
 
 namespace UI.Desktop
 {
@@ -49,8 +50,12 @@ namespace UI.Desktop
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            //la propiedad Text de los TextBox contiene el texto escrito en ellos
-            if (this.txtUsuario.Text == "Admin" && this.txtPass.Text == "admin")
+            UsuarioLogic us = new UsuarioLogic();
+            string nombreUsuario, password;
+            nombreUsuario = this.txtUsuario.Text;
+            password = this.txtPass.Text;
+            bool usuarioLogueado = us.ValidarUsuarioLogic(nombreUsuario, password);
+            if (usuarioLogueado)
             {
                 this.DialogResult = DialogResult.OK;
             }

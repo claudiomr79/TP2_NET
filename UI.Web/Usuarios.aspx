@@ -84,6 +84,7 @@
                             <asp:Label CssClass="alert-info" ID="claveLabel" runat="server" Text="Clave:"></asp:Label></td>
                         <td>
                             <asp:TextBox ID="claveTextBox" TextMode="Password" runat="server" Width="150px"></asp:TextBox>
+                            <asp:CompareValidator ID="cvClave" runat="server" ControlToCompare="repetirClaveTextBox" ControlToValidate="claveTextBox" Display="Dynamic" ErrorMessage="Las claves no coinciden">*</asp:CompareValidator>
                         </td>
                     </tr>
                     <tr>
@@ -91,8 +92,7 @@
                             <asp:Label CssClass="alert-info" ID="repetirClaveLabel" runat="server" Text="Repetir Clave:"></asp:Label></td>
                         <td>
                             <asp:TextBox ID="repetirClaveTextBox" TextMode="Password" runat="server" Width="150px"></asp:TextBox>
-                            <asp:CompareValidator ID="rfvClave" runat="server" ControlToCompare="claveTextBox" ControlToValidate="repetirClaveTextBox" ErrorMessage="Las claves no coinciden" Display="Dynamic">*</asp:CompareValidator>
-                            <asp:RequiredFieldValidator ID="rfvClaveReq" runat="server" ErrorMessage="La clave no puede estar vacia" ControlToValidate="repetirClaveTextBox" Display="Dynamic">*</asp:RequiredFieldValidator>
+                            <asp:CompareValidator ID="rfvClave" runat="server" ControlToCompare="claveTextBox" ControlToValidate="repetirClaveTextBox" ErrorMessage="Las claves no coinciden" Display="Dynamic">*</asp:CompareValidator>       
                         </td>
                     </tr>
                 </table>

@@ -46,6 +46,8 @@ namespace UI.Web
             this.emailTextBox.Text = this.Entity.Email;
             this.habilitadoCheckBox.Checked = this.Entity.Habilitado;
             this.nombreUsuarioTextBox.Text = this.Entity.NombreUsuario;
+            this.claveTextBox.Text= this.Entity.Clave;
+            this.repetirClaveTextBox.Text = this.Entity.Clave;
         }
 
         private void LoadEntity(Usuario usuario)
@@ -54,8 +56,8 @@ namespace UI.Web
             usuario.Apellido = this.apellidoTextBox.Text;
             usuario.Email = this.emailTextBox.Text;
             usuario.NombreUsuario = this.nombreUsuarioTextBox.Text;
-            usuario.Clave = this.claveTextBox.Text;
             usuario.Habilitado = this.habilitadoCheckBox.Checked;
+            usuario.Clave = this.claveTextBox.Text;           
         }
         private void SaveEntity(Usuario usuario)
         {
