@@ -27,3 +27,8 @@ C:\Proyectos\Unidades\TP2_NET\Business.Entities\bin\Debug\Business.Entities.pdb
 C:\Proyectos\Unidades\TP2_NET\Business.Entities\obj\Debug\Business.Entities.csproj.CoreCompileInputs.cache
 C:\Proyectos\Unidades\TP2_NET\Business.Entities\obj\Debug\Business.Entities.dll
 C:\Proyectos\Unidades\TP2_NET\Business.Entities\obj\Debug\Business.Entities.pdb
+C:\Users\claudio\Documents\GitHub\TP2_NET\Business.Entities\bin\Debug\Business.Entities.dll
+C:\Users\claudio\Documents\GitHub\TP2_NET\Business.Entities\bin\Debug\Business.Entities.pdb
+C:\Users\claudio\Documents\GitHub\TP2_NET\Business.Entities\obj\Debug\Business.Entities.csproj.CoreCompileInputs.cache
+C:\Users\claudio\Documents\GitHub\TP2_NET\Business.Entities\obj\Debug\Business.Entities.dll
+C:\Users\claudio\Documents\GitHub\TP2_NET\Business.Entities\obj\Debug\Business.Entities.pdb
