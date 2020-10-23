@@ -27,4 +27,12 @@ C:\Proyectos\Unidades\TP2_NET\Business.Entities\bin\Debug\Business.Entities.pdb
 C:\Proyectos\Unidades\TP2_NET\Business.Entities\obj\Debug\Business.Entities.csproj.CoreCompileInputs.cache
 C:\Proyectos\Unidades\TP2_NET\Business.Entities\obj\Debug\Business.Entities.dll
 C:\Proyectos\Unidades\TP2_NET\Business.Entities\obj\Debug\Business.Entities.pdb
+<<<<<<< HEAD
 C:\Proyectos\Unidades\TP2_NET\Business.Entities\obj\Debug\Business.Entities.csprojAssemblyReference.cache
+=======
+C:\Users\claudio\Documents\GitHub\TP2_NET\Business.Entities\bin\Debug\Business.Entities.dll
+C:\Users\claudio\Documents\GitHub\TP2_NET\Business.Entities\bin\Debug\Business.Entities.pdb
+C:\Users\claudio\Documents\GitHub\TP2_NET\Business.Entities\obj\Debug\Business.Entities.csproj.CoreCompileInputs.cache
+C:\Users\claudio\Documents\GitHub\TP2_NET\Business.Entities\obj\Debug\Business.Entities.dll
+C:\Users\claudio\Documents\GitHub\TP2_NET\Business.Entities\obj\Debug\Business.Entities.pdb
+>>>>>>> 9588287bc636396692121d3560553c85afc06849
