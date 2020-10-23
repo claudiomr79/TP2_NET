@@ -24,19 +24,28 @@ namespace Business.Entities
         public string Direccion { get => _direccion; set => _direccion = value; }
         public string Email { get => _email; set => _email = value; }
         public DateTime FechaNacimiento { get => _fechaNacimiento; set => _fechaNacimiento = value; }
+        public string FechaFormateada
+        {
+            get { return FechaNacimiento.ToString("dd/MM/yyyy"); }
+        }
         public int IDPlan { get => _IDPlan; set => _IDPlan = value; }
         public int Legajo { get => _legajo; set => _legajo = value; }
         public string Nombre { get => _nombre; set => _nombre = value; }
         public string Telefono { get => _telefono; set => _telefono = value; }
-        public int TipoPersona { get; set; }
+        public TiposPersonas TipoPersona
+        {
+            get { return _tipoPersona; }
+            set { _tipoPersona = value; }
+        }
         #endregion
 
-        enum TiposPersonas
+        public enum TiposPersonas
         {
             Alumno=1,
-            Docente,
-            Administrativo
-        }
+            Docente=2,
+            Administrativo=3
+        };
 
+       
     }
 }

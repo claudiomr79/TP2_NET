@@ -31,7 +31,21 @@ namespace Data.Database
                     per.Telefono = (string)drPersonas["telefono"];
                     per.FechaNacimiento = (DateTime)drPersonas["fecha_nac"];
                     per.Legajo = (int)drPersonas["legajo"];
-                    per.TipoPersona = (int)drPersonas["tipo_persona"];
+                    var tipo = (int)drPersonas["tipo_persona"];
+                    switch (tipo)
+                    {
+                        case 1:
+                            per.TipoPersona = Business.Entities.Persona.TiposPersonas.Alumno;
+                            break;
+                        case 2:
+                            per.TipoPersona = Business.Entities.Persona.TiposPersonas.Docente;
+                            break;
+                        case 3:
+                            per.TipoPersona = Business.Entities.Persona.TiposPersonas.Administrativo;
+                            break;
+                        default:
+                            break;
+                    }
                     per.IDPlan = (int)drPersonas["id_plan"];
                     personas.Add(per);
                 }
@@ -70,7 +84,21 @@ namespace Data.Database
                     persona.Telefono = (string)drPersonas["telefono"];
                     persona.FechaNacimiento = (DateTime)drPersonas["fecha_nac"];
                     persona.Legajo = (int)drPersonas["legajo"];
-                    persona.TipoPersona = (int)drPersonas["tipo_persona"];
+                    var tipo = (int)drPersonas["tipo_persona"];
+                    switch (tipo)
+                    {
+                        case 1:
+                            persona.TipoPersona = Business.Entities.Persona.TiposPersonas.Alumno;
+                            break;
+                        case 2:
+                            persona.TipoPersona = Business.Entities.Persona.TiposPersonas.Docente;
+                            break;
+                        case 3:
+                            persona.TipoPersona = Business.Entities.Persona.TiposPersonas.Administrativo;
+                            break;
+                        default:
+                            break;
+                    }
                     persona.IDPlan = (int)drPersonas["id_plan"];
                 }
                 drPersonas.Close();
@@ -123,7 +151,7 @@ namespace Data.Database
                 cmdSave.Parameters.Add("@direccion", SqlDbType.VarChar, 50).Value = persona.Direccion;
                 cmdSave.Parameters.Add("@email", SqlDbType.VarChar, 50).Value = persona.Email;
                 cmdSave.Parameters.Add("@telefono", SqlDbType.VarChar, 50).Value = persona.Telefono;
-                cmdSave.Parameters.Add("@fecha_nac", SqlDbType.DateTime).Value = persona.FechaNacimiento;
+                cmdSave.Parameters.Add("@fecha_nac", SqlDbType.DateTime).Value = persona.FechaFormateada;
                 cmdSave.Parameters.Add("@legajo", SqlDbType.Int).Value = persona.Legajo;
                 cmdSave.Parameters.Add("@tipo_persona", SqlDbType.Int).Value = persona.TipoPersona;
                 cmdSave.Parameters.Add("@id_plan", SqlDbType.Int).Value = persona.IDPlan;
@@ -153,7 +181,7 @@ namespace Data.Database
                 cmdSave.Parameters.Add("@direccion", SqlDbType.VarChar, 50).Value = persona.Direccion;
                 cmdSave.Parameters.Add("@email", SqlDbType.VarChar, 50).Value = persona.Email;
                 cmdSave.Parameters.Add("@telefono", SqlDbType.VarChar, 50).Value = persona.Telefono;
-                cmdSave.Parameters.Add("@fecha_nac", SqlDbType.DateTime).Value = persona.FechaNacimiento;
+                cmdSave.Parameters.Add("@fecha_nac", SqlDbType.DateTime).Value = persona.FechaFormateada;
                 cmdSave.Parameters.Add("@legajo", SqlDbType.Int).Value = persona.Legajo;
                 cmdSave.Parameters.Add("@tipo_persona", SqlDbType.Int).Value = persona.TipoPersona;
                 cmdSave.Parameters.Add("@id_plan", SqlDbType.Int).Value = persona.IDPlan;

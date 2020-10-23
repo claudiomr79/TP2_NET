@@ -54,11 +54,11 @@ namespace Business.Logic
             }
 
         }
-        public void Save(Usuario us)
+        public void Save(Persona persona)
         {
             try
             {
-                this.PersonaData.Save(us);
+                this.PersonaData.Save(persona);
             }
             catch (Exception Ex)
             {
