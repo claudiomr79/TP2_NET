@@ -42,11 +42,11 @@
             this.btnSalir = new System.Windows.Forms.Button();
             this.tsUsuarios = new System.Windows.Forms.ToolStrip();
             this.tsbNuevo = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbEditar = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbEliminar = new System.Windows.Forms.ToolStripButton();
             this.usuarioBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.tcUsuarios.ContentPanel.SuspendLayout();
             this.tcUsuarios.TopToolStripPanel.SuspendLayout();
             this.tcUsuarios.SuspendLayout();
@@ -189,7 +189,7 @@
             this.tsUsuarios.Location = new System.Drawing.Point(3, 0);
             this.tsUsuarios.Name = "tsUsuarios";
             this.tsUsuarios.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.tsUsuarios.Size = new System.Drawing.Size(331, 91);
+            this.tsUsuarios.Size = new System.Drawing.Size(244, 91);
             this.tsUsuarios.TabIndex = 0;
             // 
             // tsbNuevo
@@ -205,6 +205,11 @@
             this.tsbNuevo.ToolTipText = "Nuevo";
             this.tsbNuevo.Click += new System.EventHandler(this.tsbNuevo_Click);
             // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 91);
+            // 
             // tsbEditar
             // 
             this.tsbEditar.AutoSize = false;
@@ -217,6 +222,11 @@
             this.tsbEditar.Text = "toolStripButton1";
             this.tsbEditar.ToolTipText = "Editar";
             this.tsbEditar.Click += new System.EventHandler(this.tsbEditar_Click);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 91);
             // 
             // tsbEliminar
             // 
@@ -233,16 +243,6 @@
             // usuarioBindingSource
             // 
             this.usuarioBindingSource.DataSource = typeof(Business.Entities.Usuario);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 91);
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 91);
             // 
             // Usuarios
             // 

@@ -36,6 +36,8 @@
             this.aBMPlanesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aBMMateriasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aBMEspecialidadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aBMComisionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aBMCursosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnsPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -71,7 +73,9 @@
             this.aBMUsuarioToolStripMenuItem1,
             this.aBMPlanesToolStripMenuItem,
             this.aBMMateriasToolStripMenuItem,
-            this.aBMEspecialidadesToolStripMenuItem});
+            this.aBMEspecialidadesToolStripMenuItem,
+            this.aBMComisionesToolStripMenuItem,
+            this.aBMCursosToolStripMenuItem});
             this.aBMUsuarioToolStripMenuItem.Name = "aBMUsuarioToolStripMenuItem";
             this.aBMUsuarioToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
             this.aBMUsuarioToolStripMenuItem.Text = "ABM";
@@ -104,6 +108,20 @@
             this.aBMEspecialidadesToolStripMenuItem.Text = "ABM Especialidades";
             this.aBMEspecialidadesToolStripMenuItem.Click += new System.EventHandler(this.aBMEspecialidadesToolStripMenuItem_Click);
             // 
+            // aBMComisionesToolStripMenuItem
+            // 
+            this.aBMComisionesToolStripMenuItem.Name = "aBMComisionesToolStripMenuItem";
+            this.aBMComisionesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aBMComisionesToolStripMenuItem.Text = "ABM Comisiones";
+            this.aBMComisionesToolStripMenuItem.Click += new System.EventHandler(this.aBMComisionesToolStripMenuItem_Click);
+            // 
+            // aBMCursosToolStripMenuItem
+            // 
+            this.aBMCursosToolStripMenuItem.Name = "aBMCursosToolStripMenuItem";
+            this.aBMCursosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aBMCursosToolStripMenuItem.Text = "ABM Cursos";
+            this.aBMCursosToolStripMenuItem.Click += new System.EventHandler(this.aBMCursosToolStripMenuItem_Click);
+            // 
             // formMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -134,5 +152,7 @@
         private System.Windows.Forms.ToolStripMenuItem aBMPlanesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aBMMateriasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aBMEspecialidadesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aBMComisionesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aBMCursosToolStripMenuItem;
     }
 }

@@ -61,5 +61,17 @@ namespace UI.Desktop
             Especialidades AbmEspecialidades = new Especialidades();
             AbmEspecialidades.ShowDialog();
         }
+
+        private void aBMComisionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Comisiones AbmComisiones = new Comisiones();
+            AbmComisiones.ShowDialog();
+        }
+
+        private void aBMCursosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Cursos AbmCursos = new Cursos();
+            AbmCursos.ShowDialog();
+        }
     }
 }
