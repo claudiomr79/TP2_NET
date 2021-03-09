@@ -6,8 +6,11 @@
     <h1>Usuarios</h1>
     <div>
         <asp:Panel ID="gridPanel" runat="server">
-            <asp:GridView ID="gridView" runat="server" AutoGenerateColumns="False" DataKeyNames="ID" OnSelectedIndexChanged="gridView_SelectedIndexChanged" Width="700px">
+            <asp:GridView ID="gridView" runat="server" AutoGenerateColumns="False" DataKeyNames="IdUsuario" OnSelectedIndexChanged="gridView_SelectedIndexChanged" Width="700px">
                 <Columns>
+                    <asp:BoundField DataField="IdUsuario" HeaderText="ID_Usuario" >
+                         <HeaderStyle BackColor="Aqua" />
+                    </asp:BoundField> 
                     <asp:BoundField DataField="Nombre" HeaderText="Nombre">
                         <HeaderStyle BackColor="Aqua" />
                     </asp:BoundField>
@@ -43,26 +46,31 @@
                 <table class="table">
                     <tr>
                         <td>
+                            <asp:Label CssClass="alert-info" ID="idPersonaLabel" runat="server" Text="Id Persona:"></asp:Label></td>
+                        <td>
+                            <asp:DropDownList ID="ddlIdPersona" runat="server" OnSelectedIndexChanged="ddlIdPersona_SelectedIndexChanged" AutoPostBack="True"></asp:DropDownList>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
                             <asp:Label CssClass="alert-info" ID="nombreLabel" runat="server" Text="Nombre:"></asp:Label></td>
                         <td>
-                            <asp:TextBox ID="nombreTextBox" runat="server" Width="150px"></asp:TextBox>
-                            <asp:RequiredFieldValidator ID="rfvNombre" runat="server" ErrorMessage="El nombre no puede estar vacio" ControlToValidate="nombreTextBox">*</asp:RequiredFieldValidator>
+                            <asp:Label ID="lblNombre" runat="server"></asp:Label>
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <asp:Label CssClass="alert-info" ID="apellidoLabel" runat="server" Text="Apellido:"></asp:Label></td>
                         <td>
-                            <asp:TextBox ID="apellidoTextBox" runat="server" Width="150px"></asp:TextBox>
-                            <asp:RequiredFieldValidator ID="rfvApellido" runat="server" ErrorMessage="El apellido no puede estar vacio" ControlToValidate="apellidoTextBox">*</asp:RequiredFieldValidator>
+                            <asp:Label ID="lblApellido" runat="server"></asp:Label>
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <asp:Label CssClass="alert-info" ID="emailLabel" runat="server" Text="Email:"></asp:Label></td>
                         <td>
-                            <asp:TextBox ID="emailTextBox" runat="server" Width="150px"></asp:TextBox>
-                            <asp:RegularExpressionValidator ID="rfvEmail" runat="server" ErrorMessage="El email es inválido" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ControlToValidate="emailTextBox">*</asp:RegularExpressionValidator>
+                            <asp:Label ID="lblEmail" runat="server"></asp:Label>
                         </td>
                     </tr>
                     <tr>

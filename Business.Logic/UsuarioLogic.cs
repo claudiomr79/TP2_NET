@@ -55,6 +55,7 @@ namespace Business.Logic
             }
             
         }
+
         public void Save (Usuario us)
         {
             try
@@ -73,5 +74,11 @@ namespace Business.Logic
             bool usuarioValido= UsuarioData.ValidarUsuario( usuario, password);
             return usuarioValido;
         }
+        public int TraerIdPersonaLogic(string nombreUsuario)
+        {
+            int idPersona = UsuarioData.TraerIdPersona(nombreUsuario);
+            return idPersona;
+        }
+        
     }
 }

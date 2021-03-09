@@ -35,11 +35,11 @@ namespace Business.Entities
             set { _cambiaClave = value; }
         }
 
-        private int _idPersona;
-        public int IdPersona
+        private int _idUsuario;
+        public int IdUsuario
         {
-            get { return _idPersona; }
-            set { _idPersona = value; }
+            get { return _idUsuario; }
+            set { _idUsuario = value; }
         }
         //private string _nombre;
         //public string Nombre

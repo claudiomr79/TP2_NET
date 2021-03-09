@@ -110,3 +110,17 @@ C:\Proyectos\Unidades\TP2_NET\UI.Consola\obj\Debug\UI.Consola.csproj.CoreCompile
 C:\Proyectos\Unidades\TP2_NET\UI.Consola\obj\Debug\UI.Consola.csproj.CopyComplete
 C:\Proyectos\Unidades\TP2_NET\UI.Consola\obj\Debug\UI.Consola.exe
 C:\Proyectos\Unidades\TP2_NET\UI.Consola\obj\Debug\UI.Consola.pdb
+C:\Users\Claudio\OneDrive\TP2_NET\TP2_NET\UI.Consola\bin\Debug\UI.Consola.exe.config
+C:\Users\Claudio\OneDrive\TP2_NET\TP2_NET\UI.Consola\bin\Debug\UI.Consola.exe
+C:\Users\Claudio\OneDrive\TP2_NET\TP2_NET\UI.Consola\bin\Debug\UI.Consola.pdb
+C:\Users\Claudio\OneDrive\TP2_NET\TP2_NET\UI.Consola\bin\Debug\Business.Entities.dll
+C:\Users\Claudio\OneDrive\TP2_NET\TP2_NET\UI.Consola\bin\Debug\Business.Logic.dll
+C:\Users\Claudio\OneDrive\TP2_NET\TP2_NET\UI.Consola\bin\Debug\Data.Database.dll
+C:\Users\Claudio\OneDrive\TP2_NET\TP2_NET\UI.Consola\bin\Debug\Business.Entities.pdb
+C:\Users\Claudio\OneDrive\TP2_NET\TP2_NET\UI.Consola\bin\Debug\Business.Logic.pdb
+C:\Users\Claudio\OneDrive\TP2_NET\TP2_NET\UI.Consola\bin\Debug\Data.Database.pdb
+C:\Users\Claudio\OneDrive\TP2_NET\TP2_NET\UI.Consola\obj\Debug\UI.Consola.csprojAssemblyReference.cache
+C:\Users\Claudio\OneDrive\TP2_NET\TP2_NET\UI.Consola\obj\Debug\UI.Consola.csproj.CoreCompileInputs.cache
+C:\Users\Claudio\OneDrive\TP2_NET\TP2_NET\UI.Consola\obj\Debug\UI.Consola.csproj.CopyComplete
+C:\Users\Claudio\OneDrive\TP2_NET\TP2_NET\UI.Consola\obj\Debug\UI.Consola.exe
+C:\Users\Claudio\OneDrive\TP2_NET\TP2_NET\UI.Consola\obj\Debug\UI.Consola.pdb

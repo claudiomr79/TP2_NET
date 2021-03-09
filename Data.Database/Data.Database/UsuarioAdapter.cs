@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using System.Collections.Generic;
 using System.Text;
 using Business.Entities;
@@ -9,6 +10,27 @@ namespace Data.Database
 {
     public class UsuarioAdapter : Adapter
     {
+        public int TraerIdPersona(string nombreUsuario)
+        {
+            try
+            {
+                this.OpenConnection();
+                SqlCommand cmdUsuarios = new SqlCommand("select id_persona from usuarios where nombre_usuario=@nombreUsuario", SqlConn);
+                cmdUsuarios.Parameters.Add("@nombreUsuario", SqlDbType.VarChar, 50);
+                cmdUsuarios.Parameters["@nombreUsuario"].Value = nombreUsuario;
+                int idPersona = (int)cmdUsuarios.ExecuteScalar();
+                return idPersona;
+            }
+            catch (Exception Ex)
+            {
+                Exception ExcepcionManejada = new Exception("Error al recuperar el idPersona del usuario", Ex);
+                throw ExcepcionManejada;
+            }
+            finally
+            {
+                this.CloseConnection();
+            }
+        }
         public bool ValidarUsuario(string usuario, string password)
         {
             
@@ -56,13 +78,15 @@ namespace Data.Database
                 {
                     Usuario usr = new Usuario();
 
-                    usr.ID = (int)drUsuarios["id_usuario"];
+                    usr.ID = (int)drUsuarios["id_persona"];//seria el ID persona del usuario
+                    usr.IdUsuario = (int)drUsuarios["id_usuario"];
                     usr.NombreUsuario = (string)drUsuarios["nombre_usuario"];
                     usr.Clave = (string)drUsuarios["clave"];
                     usr.Habilitado = (bool)drUsuarios["habilitado"];
                     usr.Nombre = (string)drUsuarios["nombre"];
                     usr.Apellido = (string)drUsuarios["apellido"];
                     usr.Email = (string)drUsuarios["email"];
+                    
                     usuarios.Add(usr);
                 }
                 drUsuarios.Close();
@@ -81,6 +105,7 @@ namespace Data.Database
             return usuarios;
         }
 
+       
         public Business.Entities.Usuario GetOne(int ID)
         {
             Usuario usr = new Usuario();
@@ -92,14 +117,15 @@ namespace Data.Database
                 SqlDataReader drUsuarios = cmdUsuarios.ExecuteReader();
                 if (drUsuarios.Read())
                 {
-                    usr.ID = (int)drUsuarios["id_usuario"];
+                    usr.ID = (int)drUsuarios["id_persona"];//seria el ID persona del usuario
+                    usr.IdUsuario = (int)drUsuarios["id_usuario"];
                     usr.NombreUsuario = (string)drUsuarios["nombre_usuario"];
                     usr.Clave = (string)drUsuarios["clave"];
                     usr.Habilitado = (bool)drUsuarios["habilitado"];
                     usr.Nombre = (string)drUsuarios["nombre"];
                     usr.Apellido = (string)drUsuarios["apellido"];
                     usr.Email = (string)drUsuarios["email"];
-
+                    
                 }
                 drUsuarios.Close();
             }
@@ -142,7 +168,7 @@ namespace Data.Database
             {
                 this.OpenConnection();
                 SqlCommand cmdSave = new SqlCommand("UPDATE usuarios SET nombre_usuario = @nombre_usuario, clave = @clave, " +
-                    "habilitado = @habilitado, nombre = @nombre , apellido = @apellido, email = @email WHERE id_usuario = @id", SqlConn);
+                    "habilitado = @habilitado, nombre = @nombre , apellido = @apellido, email = @email WHERE id_persona = @id", SqlConn);
 
                 cmdSave.Parameters.Add("@id", SqlDbType.Int).Value = usuario.ID;
                 cmdSave.Parameters.Add("@nombre_usuario", SqlDbType.VarChar, 50).Value = usuario.NombreUsuario;
@@ -170,9 +196,9 @@ namespace Data.Database
             try
             {
                 this.OpenConnection();
-                SqlCommand cmdSave = new SqlCommand("INSERT INTO usuarios (nombre_usuario, clave, habilitado, nombre , apellido, email) VALUES (@nombre_usuario,@clave,@habilitado,@nombre,@apellido,@email) select @@identity", SqlConn);
+                SqlCommand cmdSave = new SqlCommand("INSERT INTO usuarios (id_persona, nombre_usuario, clave, habilitado, nombre , apellido, email) VALUES (@id_persona,@nombre_usuario,@clave,@habilitado,@nombre,@apellido,@email) select @@identity", SqlConn);
 
-
+                cmdSave.Parameters.Add("@id_persona", SqlDbType.Int).Value = usuario.ID;//ID es el id_persona
                 cmdSave.Parameters.Add("@nombre_usuario", SqlDbType.VarChar, 50).Value = usuario.NombreUsuario;
                 cmdSave.Parameters.Add("@clave", SqlDbType.VarChar, 50).Value = usuario.Clave;
                 cmdSave.Parameters.Add("@habilitado", SqlDbType.Bit).Value = usuario.Habilitado;

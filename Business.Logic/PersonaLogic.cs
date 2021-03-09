@@ -66,6 +66,11 @@ namespace Business.Logic
                 throw new Exception("No se pudo guardar la persona", Ex);
             }
 
-        }       
+        }
+        public int TraerTipoPersonaLogic(int idPersona)
+        {
+            int tipoPersona = PersonaData.TraerTipoPersona(idPersona);
+            return tipoPersona;
+        }
     }
 }

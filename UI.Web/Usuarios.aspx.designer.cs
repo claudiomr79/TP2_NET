@@ -78,6 +78,24 @@ namespace UI.Web
         protected global::System.Web.UI.WebControls.Panel formPanel;
 
         /// <summary>
+        /// Control idPersonaLabel.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label idPersonaLabel;
+
+        /// <summary>
+        /// Control ddlIdPersona.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlIdPersona;
+
+        /// <summary>
         /// Control nombreLabel.
         /// </summary>
         /// <remarks>
@@ -87,22 +105,13 @@ namespace UI.Web
         protected global::System.Web.UI.WebControls.Label nombreLabel;
 
         /// <summary>
-        /// Control nombreTextBox.
+        /// Control lblNombre.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox nombreTextBox;
-
-        /// <summary>
-        /// Control rfvNombre.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvNombre;
+        protected global::System.Web.UI.WebControls.Label lblNombre;
 
         /// <summary>
         /// Control apellidoLabel.
@@ -114,22 +123,13 @@ namespace UI.Web
         protected global::System.Web.UI.WebControls.Label apellidoLabel;
 
         /// <summary>
-        /// Control apellidoTextBox.
+        /// Control lblApellido.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox apellidoTextBox;
-
-        /// <summary>
-        /// Control rfvApellido.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvApellido;
+        protected global::System.Web.UI.WebControls.Label lblApellido;
 
         /// <summary>
         /// Control emailLabel.
@@ -141,22 +141,13 @@ namespace UI.Web
         protected global::System.Web.UI.WebControls.Label emailLabel;
 
         /// <summary>
-        /// Control emailTextBox.
+        /// Control lblEmail.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox emailTextBox;
-
-        /// <summary>
-        /// Control rfvEmail.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator rfvEmail;
+        protected global::System.Web.UI.WebControls.Label lblEmail;
 
         /// <summary>
         /// Control habilitadoLabel.

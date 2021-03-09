@@ -215,5 +215,34 @@ namespace Data.Database
             }
             persona.State = BusinessEntity.States.Unmodified;
         }
+      
+        public int TraerTipoPersona(int idPersona)//traigo el tipo de persona :Alumno, Docente, Administrativo
+        {
+            List<Persona> personas = new List<Persona>();
+            int tipoADevolver;
+            try
+            {
+                personas = GetAll();
+                
+                var query = (from pers in personas
+                             where pers.ID == idPersona
+                             select pers.TipoPersona).FirstOrDefault();
+
+                object obj = query;
+                tipoADevolver = (int)obj;
+
+
+                return tipoADevolver;
+
+            }
+            catch (Exception Ex)
+            {
+                Exception ExcepcionManejada = new Exception("Error al traer tipo de Persona", Ex);
+                throw ExcepcionManejada;
+
+            }
+
+
+        }
     }
 }

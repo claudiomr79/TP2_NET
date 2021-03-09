@@ -27,8 +27,19 @@ namespace UI.Web
                 return _logic;
             }
         }
+        PersonaLogic _logicPersona;
+        public PersonaLogic LogicPersona
+        {
+            get
+            {
+                if (_logicPersona == null)
+                {
+                    _logicPersona = new PersonaLogic();
+                }
+                return _logicPersona;
+            }
+        }
 
-       
 
         protected void btnLoguearse_Click(object sender, EventArgs e)
         {
@@ -36,9 +47,24 @@ namespace UI.Web
             nombreUsuario = this.txtNombreUsuario.Text;
             password = this.txtPassword.Text;
             bool usuarioLogueado = this.Logic.ValidarUsuarioLogic(nombreUsuario, password);
+            
             if (usuarioLogueado)
             {
-                Response.Redirect("Default.aspx");
+                int idPersona=this.Logic.TraerIdPersonaLogic(nombreUsuario);
+                int tipoPersona = this.LogicPersona.TraerTipoPersonaLogic(idPersona);
+                switch (tipoPersona)
+                {
+                    case 1:
+                        Response.Redirect("AlumnoMenu.aspx");
+                        break;
+                    case 2:
+                        Response.Redirect("DocenteMenu.aspx");
+                        break;
+                    default:
+                        Response.Redirect("Default.aspx");
+                        break;
+                }
+                
             }
             else
             {

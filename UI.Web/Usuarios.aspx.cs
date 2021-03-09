@@ -17,9 +17,45 @@ namespace UI.Web
         {
             if (!Page.IsPostBack)
             {
+                cargarIdPersonas();
                 LoadGrid();
             }
         }
+        PersonaLogic _logicPersona;
+        public PersonaLogic LogicPersona
+        {
+            get
+            {
+                if (_logicPersona == null)
+                {
+                    _logicPersona = new PersonaLogic();
+                }
+                return _logicPersona;
+            }
+        }
+        private void cargarIdPersonas()
+        {
+            //List<Usuario> usuarios = this.Logic.GetAll();
+            List<Persona> personas = this.LogicPersona.GetAll();
+            ddlIdPersona.Items.Insert(0, new ListItem("Seleccionar", "0"));
+            foreach(Persona per in personas)
+            {
+                //int c = 0;
+                //int cantidadUsuarios= usuarios.Count;
+                //foreach(Usuario usr in usuarios)
+                //{
+                //       if (usr.ID != per.ID)//veo que no exista el usuario 
+                //        c++;
+                    
+                //}
+                //if(c==cantidadUsuarios)
+                    ddlIdPersona.Items.Add(per.ID.ToString());//sólo cargo en el ddl las personas que
+                                                              //no tienen usuario
+            }
+            
+            
+        }
+
         UsuarioLogic _logic;
         public UsuarioLogic Logic
         {
@@ -41,9 +77,11 @@ namespace UI.Web
         private void LoadForm(int id)
         {
             this.Entity = this.Logic.GetOne(id);
-            this.nombreTextBox.Text = this.Entity.Nombre;
-            this.apellidoTextBox.Text = this.Entity.Apellido;
-            this.emailTextBox.Text = this.Entity.Email;
+            //if (this.FormMode == FormModes.Alta)
+                    this.ddlIdPersona.SelectedValue = this.Entity.ID.ToString();
+            this.lblNombre.Text = this.Entity.Nombre;
+            this.lblApellido.Text = this.Entity.Apellido;
+            this.lblEmail.Text = this.Entity.Email;
             this.habilitadoCheckBox.Checked = this.Entity.Habilitado;
             this.nombreUsuarioTextBox.Text = this.Entity.NombreUsuario;
             this.claveTextBox.Text= this.Entity.Clave;
@@ -52,12 +90,14 @@ namespace UI.Web
 
         private void LoadEntity(Usuario usuario)
         {
-            usuario.Nombre = this.nombreTextBox.Text;
-            usuario.Apellido = this.apellidoTextBox.Text;
-            usuario.Email = this.emailTextBox.Text;
+            usuario.ID = Convert.ToInt32(ddlIdPersona.SelectedItem.Value);
+            usuario.Nombre = this.lblNombre.Text;
+            usuario.Apellido = this.lblApellido.Text;
+            usuario.Email = this.lblEmail.Text;
             usuario.NombreUsuario = this.nombreUsuarioTextBox.Text;
             usuario.Habilitado = this.habilitadoCheckBox.Checked;
-            usuario.Clave = this.claveTextBox.Text;           
+            usuario.Clave = this.claveTextBox.Text;
+            
         }
         private void SaveEntity(Usuario usuario)
         {
@@ -66,9 +106,10 @@ namespace UI.Web
         
         private void EnableForm (bool enable)
         {
-            this.nombreTextBox.Enabled = enable;
-            this.apellidoTextBox.Enabled = enable;
-            this.emailTextBox.Enabled = enable;
+            
+            this.lblNombre.Enabled = enable;
+            this.lblApellido.Enabled = enable;
+            this.lblEmail.Enabled = enable;
             this.nombreUsuarioTextBox.Enabled = enable;
             this.claveTextBox.Visible = enable;
             this.claveLabel.Visible = enable;
@@ -136,10 +177,11 @@ namespace UI.Web
         protected void editarLinkButton_Click(object sender, EventArgs e)
         {
             this.EnableForm(true);
-
+            this.ddlIdPersona.Enabled = false;
             if (this.IsEntitySelected)
             {
                 this.formPanel.Visible = true;
+                ClearForm();
                 this.FormMode = FormModes.Modificacion;
                 this.LoadForm(this.SelectedID);
             }
@@ -154,6 +196,7 @@ namespace UI.Web
                 this.formPanel.Visible = true;
                 this.FormMode = FormModes.Baja;
                 this.EnableForm(false);
+                this.ddlIdPersona.Enabled = false;
                 this.LoadForm(this.SelectedID);
             }
         }
@@ -163,14 +206,18 @@ namespace UI.Web
             this.formPanel.Visible = true;
             this.FormMode = FormModes.Alta;
             this.ClearForm();
+            this.ddlIdPersona.Enabled = true;
             this.EnableForm(true);
+            
+
         }
 
         private void ClearForm()
         {
-            this.nombreTextBox.Text = string.Empty;
-            this.apellidoTextBox.Text = string.Empty;
-            this.emailTextBox.Text = string.Empty;
+            this.ddlIdPersona.SelectedIndex = -1;
+            this.lblNombre.Text = string.Empty;
+            this.lblApellido.Text = string.Empty;
+            this.lblEmail.Text = string.Empty;
             this.habilitadoCheckBox.Checked = false;
             this.nombreUsuarioTextBox.Text = string.Empty;
         }
@@ -208,6 +255,16 @@ namespace UI.Web
         {
             this.LoadGrid();
             this.formPanel.Visible = false;
+        }
+
+        protected void ddlIdPersona_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Persona persona = new Persona();
+            int id = Convert.ToInt32(ddlIdPersona.SelectedValue);
+            persona= this.LogicPersona.GetOne(id);
+            lblApellido.Text = persona.Apellido;
+            lblNombre.Text = persona.Nombre;
+            lblEmail.Text = persona.Email;
         }
     }
 }

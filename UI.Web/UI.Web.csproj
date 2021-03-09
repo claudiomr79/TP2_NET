@@ -68,6 +68,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AlumnoMenu.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
@@ -83,8 +84,10 @@
     <None Include="packages.config" />
     <Content Include="Content\signin.css" />
     <Content Include="Default.aspx" />
+    <Content Include="DocenteMenu.aspx" />
     <Content Include="Especialidad.aspx" />
     <Content Include="Imagenes\utn.jpg" />
+    <Content Include="InscripcionAlumno.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Personas.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -207,12 +210,26 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlumnoMenu.aspx.cs">
+      <DependentUpon>AlumnoMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AlumnoMenu.aspx.designer.cs">
+      <DependentUpon>AlumnoMenu.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DocenteMenu.aspx.cs">
+      <DependentUpon>DocenteMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DocenteMenu.aspx.designer.cs">
+      <DependentUpon>DocenteMenu.aspx</DependentUpon>
     </Compile>
     <Compile Include="Especialidad.aspx.cs">
       <DependentUpon>Especialidad.aspx</DependentUpon>
@@ -223,6 +240,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="InscripcionAlumno.aspx.cs">
+      <DependentUpon>InscripcionAlumno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InscripcionAlumno.aspx.designer.cs">
+      <DependentUpon>InscripcionAlumno.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
