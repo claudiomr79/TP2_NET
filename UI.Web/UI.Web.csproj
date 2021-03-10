@@ -90,6 +90,7 @@
     <Content Include="InscripcionAlumno.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Personas.aspx" />
+    <Content Include="ReporteCursos.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -263,6 +264,13 @@
       <DependentUpon>Personas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReporteCursos.aspx.cs">
+      <DependentUpon>ReporteCursos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReporteCursos.aspx.designer.cs">
+      <DependentUpon>ReporteCursos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -290,6 +298,10 @@
     <ProjectReference Include="..\Business.Logic\Business.Logic.csproj">
       <Project>{c6d77ac1-c6b6-4aaa-bb68-d7fe1d3bc794}</Project>
       <Name>Business.Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Util\Util.csproj">
+      <Project>{180eb2c0-7052-4068-9f48-6ea45ecd08bf}</Project>
+      <Name>Util</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

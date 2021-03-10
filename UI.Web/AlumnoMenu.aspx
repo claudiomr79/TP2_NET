@@ -10,8 +10,11 @@
 
 <form id="form1" runat="server">
     <asp:Label ID="lblTitulo" runat="server" BackColor="#3399FF" Font-Size="20pt" ForeColor="White" Text="Bienvenido al Sitema de Gestión de Alumnos"></asp:Label>
-    <br /><br /><br />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br />
+    <asp:Label ID="Label1" runat="server" Text="Usuario: "></asp:Label>
+    <asp:Label ID="lblNombreUsuario" runat="server"></asp:Label>
+    <br /><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <asp:LinkButton runat="server" ID="lnbInscripcion" OnClick="lnbInscripcion_Click">Inscripcion a cursado</asp:LinkButton>
     <br />
     <div class="auto-style1">

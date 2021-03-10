@@ -52,9 +52,12 @@ namespace UI.Web
             {
                 int idPersona=this.Logic.TraerIdPersonaLogic(nombreUsuario);
                 int tipoPersona = this.LogicPersona.TraerTipoPersonaLogic(idPersona);
+                
                 switch (tipoPersona)
                 {
                     case 1:
+                        Session["NombreUsuario"] = nombreUsuario;
+                        Session["idPersona"] = idPersona;
                         Response.Redirect("AlumnoMenu.aspx");
                         break;
                     case 2:

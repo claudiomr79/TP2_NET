@@ -11,11 +11,22 @@ namespace UI.Web
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["NombreUsuario"] != null)
+            {
+                string nombreUsuario = (string)Session["NombreUsuario"];
+                int idPersona = (int)Session["idPersona"];
+                lblNombreUsuario.Text = nombreUsuario;
+            }
+            else
+            {
+                Response.Redirect("Login.aspx");
+            }
+            
         }
 
         protected void lnbSalir_Click(object sender, EventArgs e)
         {
+            Session.RemoveAll();
             Response.Redirect("Login.aspx");
         }
 

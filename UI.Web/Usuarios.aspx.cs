@@ -35,24 +35,13 @@ namespace UI.Web
         }
         private void cargarIdPersonas()
         {
-            //List<Usuario> usuarios = this.Logic.GetAll();
+            
             List<Persona> personas = this.LogicPersona.GetAll();
             ddlIdPersona.Items.Insert(0, new ListItem("Seleccionar", "0"));
             foreach(Persona per in personas)
             {
-                //int c = 0;
-                //int cantidadUsuarios= usuarios.Count;
-                //foreach(Usuario usr in usuarios)
-                //{
-                //       if (usr.ID != per.ID)//veo que no exista el usuario 
-                //        c++;
-                    
-                //}
-                //if(c==cantidadUsuarios)
-                    ddlIdPersona.Items.Add(per.ID.ToString());//sólo cargo en el ddl las personas que
-                                                              //no tienen usuario
+                ddlIdPersona.Items.Add(per.ID.ToString());
             }
-            
             
         }
 

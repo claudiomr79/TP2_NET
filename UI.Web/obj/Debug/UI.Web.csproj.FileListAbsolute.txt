@@ -446,3 +446,5 @@ C:\Users\Claudio\OneDrive\TP2_NET\TP2_NET\UI.Web\obj\Debug\UI.Web.csproj.CoreCom
 C:\Users\Claudio\OneDrive\TP2_NET\TP2_NET\UI.Web\obj\Debug\UI.Web.csproj.CopyComplete
 C:\Users\Claudio\OneDrive\TP2_NET\TP2_NET\UI.Web\obj\Debug\UI.Web.dll
 C:\Users\Claudio\OneDrive\TP2_NET\TP2_NET\UI.Web\obj\Debug\UI.Web.pdb
+C:\Users\Claudio\OneDrive\TP2_NET\TP2_NET\UI.Web\bin\Util.dll
+C:\Users\Claudio\OneDrive\TP2_NET\TP2_NET\UI.Web\bin\Util.pdb
